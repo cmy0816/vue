@@ -1,0 +1,1620 @@
+{
+  "code": 0,
+  "data": {
+    "list": [{
+        "letter": "全",
+        "citys": [{
+          "id": "0",
+          "name": "全国",
+          "domain": "www",
+          "pinyin": "quanguo"
+        }]
+      },
+      {
+        "letter": "A",
+        "citys": [{
+            "id": "57",
+            "domain": "anshan",
+            "name": "鞍山",
+            "pinyin": "anshan"
+          },
+          {
+            "id": "127",
+            "domain": "anqing",
+            "name": "安庆",
+            "pinyin": "anqing"
+          },
+          {
+            "id": "109",
+            "domain": "anyang",
+            "name": "安阳",
+            "pinyin": "anyang"
+          },
+          {
+            "id": "184",
+            "domain": "ankang",
+            "name": "安康",
+            "pinyin": "ankang"
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "citys": [{
+            "id": "12",
+            "domain": "bj",
+            "name": "北京",
+            "pinyin": "beijing"
+          },
+          {
+            "id": "146",
+            "domain": "baotou",
+            "name": "包头",
+            "pinyin": "baotou"
+          },
+          {
+            "id": "125",
+            "domain": "bengbu",
+            "name": "蚌埠",
+            "pinyin": "bengbu"
+          },
+          {
+            "id": "178",
+            "domain": "baoji",
+            "name": "宝鸡",
+            "pinyin": "baoji"
+          },
+          {
+            "id": "228",
+            "domain": "baoshan",
+            "name": "保山",
+            "pinyin": "baoshan"
+          },
+          {
+            "id": "6",
+            "domain": "baoding",
+            "name": "保定",
+            "pinyin": "baoding"
+          },
+          {
+            "id": "89",
+            "domain": "baishan",
+            "name": "白山",
+            "pinyin": "baishan"
+          },
+          {
+            "id": "91",
+            "domain": "baicheng",
+            "name": "白城",
+            "pinyin": "baicheng"
+          },
+          {
+            "id": "139",
+            "domain": "baise",
+            "name": "百色",
+            "pinyin": "baise"
+          },
+          {
+            "id": "122",
+            "domain": "binzhou",
+            "name": "滨州",
+            "pinyin": "binzhou"
+          },
+          {
+            "id": "286",
+            "domain": "benxi",
+            "name": "本溪",
+            "pinyin": "benxi"
+          },
+          {
+            "id": "317",
+            "domain": "beihai",
+            "name": "北海",
+            "pinyin": "beihai"
+          },
+          {
+            "id": "314",
+            "domain": "bozhou",
+            "name": "亳州",
+            "pinyin": "bozhou"
+          },
+          {
+            "id": "281",
+            "domain": "bazhong",
+            "name": "巴中",
+            "pinyin": "bazhong"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "citys": [{
+            "id": "15",
+            "domain": "cq",
+            "name": "重庆",
+            "pinyin": "chongqing"
+          },
+          {
+            "id": "45",
+            "domain": "cd",
+            "name": "成都",
+            "pinyin": "chengdu"
+          },
+          {
+            "id": "84",
+            "domain": "cc",
+            "name": "长春",
+            "pinyin": "changchun"
+          },
+          {
+            "id": "204",
+            "domain": "cs",
+            "name": "长沙",
+            "pinyin": "changsha"
+          },
+          {
+            "id": "158",
+            "domain": "changzhi",
+            "name": "长治",
+            "pinyin": "changzhi"
+          },
+          {
+            "id": "69",
+            "domain": "changzhou",
+            "name": "常州",
+            "pinyin": "changzhou"
+          },
+          {
+            "id": "128",
+            "domain": "chuzhou",
+            "name": "滁州",
+            "pinyin": "chuzhou"
+          },
+          {
+            "id": "8",
+            "domain": "chengde",
+            "name": "承德",
+            "pinyin": "chengde"
+          },
+          {
+            "id": "210",
+            "domain": "changde",
+            "name": "常德",
+            "pinyin": "changde"
+          },
+          {
+            "id": "9",
+            "domain": "cangzhou",
+            "name": "沧州",
+            "pinyin": "cangzhou"
+          },
+          {
+            "id": "211",
+            "domain": "chenzhou",
+            "name": "郴州",
+            "pinyin": "chenzhou"
+          },
+          {
+            "id": "236",
+            "domain": "chuxiong",
+            "name": "楚雄",
+            "pinyin": "chuxiong"
+          },
+          {
+            "id": "131",
+            "domain": "chaohu",
+            "name": "巢湖",
+            "pinyin": "chaohu"
+          },
+          {
+            "id": "385",
+            "domain": "cixi",
+            "name": "慈溪",
+            "pinyin": "cixi"
+          },
+          {
+            "id": "320",
+            "domain": "chongzuo",
+            "name": "崇左",
+            "pinyin": "chongzuo"
+          },
+          {
+            "id": "384",
+            "domain": "changshu",
+            "name": "常熟",
+            "pinyin": "changshu"
+          },
+          {
+            "id": "315",
+            "domain": "chizhou",
+            "name": "池州",
+            "pinyin": "chizhou"
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "citys": [{
+            "id": "56",
+            "domain": "dl",
+            "name": "大连",
+            "pinyin": "dalian"
+          },
+          {
+            "id": "156",
+            "domain": "datong",
+            "name": "大同",
+            "pinyin": "datong"
+          },
+          {
+            "id": "24",
+            "domain": "dg",
+            "name": "东莞",
+            "pinyin": "dongguan"
+          },
+          {
+            "id": "48",
+            "domain": "deyang",
+            "name": "德阳",
+            "pinyin": "deyang"
+          },
+          {
+            "id": "98",
+            "domain": "daqing",
+            "name": "大庆",
+            "pinyin": "daqing"
+          },
+          {
+            "id": "117",
+            "domain": "dongying",
+            "name": "东营",
+            "pinyin": "dongying"
+          },
+          {
+            "id": "378",
+            "domain": "danzhou",
+            "name": "儋州",
+            "pinyin": "danzhou"
+          },
+          {
+            "id": "53",
+            "domain": "dazhou",
+            "name": "达州",
+            "pinyin": "dazhou"
+          },
+          {
+            "id": "237",
+            "domain": "dali",
+            "name": "大理",
+            "pinyin": "dali"
+          },
+          {
+            "id": "238",
+            "domain": "dehong",
+            "name": "德宏",
+            "pinyin": "dehong"
+          },
+          {
+            "id": "308",
+            "domain": "dezhou",
+            "name": "德州",
+            "pinyin": "dezhou"
+          }
+        ]
+      },
+      {
+        "letter": "E",
+        "citys": [{
+          "id": "201",
+          "domain": "ezhou",
+          "name": "鄂州",
+          "pinyin": "ezhou"
+        }]
+      },
+      {
+        "letter": "F",
+        "citys": [{
+            "id": "75",
+            "domain": "fz",
+            "name": "福州",
+            "pinyin": "fuzhou"
+          },
+          {
+            "id": "58",
+            "domain": "fushun",
+            "name": "抚顺",
+            "pinyin": "fushun"
+          },
+          {
+            "id": "20",
+            "domain": "foshan",
+            "name": "佛山",
+            "pinyin": "foshan"
+          },
+          {
+            "id": "129",
+            "domain": "fuyang",
+            "name": "阜阳",
+            "pinyin": "fuyang"
+          },
+          {
+            "id": "223",
+            "domain": "jxfuzhou",
+            "name": "抚州",
+            "pinyin": "jxfuzhou"
+          },
+          {
+            "id": "318",
+            "domain": "fangchenggang",
+            "name": "防城港",
+            "pinyin": "fangchenggang"
+          }
+        ]
+      },
+      {
+        "letter": "G",
+        "citys": [{
+            "id": "16",
+            "domain": "gz",
+            "name": "广州",
+            "pinyin": "guangzhou"
+          },
+          {
+            "id": "36",
+            "domain": "gy",
+            "name": "贵阳",
+            "pinyin": "guiyang"
+          },
+          {
+            "id": "134",
+            "domain": "gl",
+            "name": "桂林",
+            "pinyin": "guilin"
+          },
+          {
+            "id": "137",
+            "domain": "guigang",
+            "name": "贵港",
+            "pinyin": "guigang"
+          },
+          {
+            "id": "220",
+            "domain": "ganzhou",
+            "name": "赣州",
+            "pinyin": "ganzhou"
+          },
+          {
+            "id": "275",
+            "domain": "guangyuan",
+            "name": "广元",
+            "pinyin": "guangyuan"
+          },
+          {
+            "id": "278",
+            "domain": "guangan",
+            "name": "广安",
+            "pinyin": "guangan"
+          }
+        ]
+      },
+      {
+        "letter": "H",
+        "citys": [{
+            "id": "26",
+            "domain": "hz",
+            "name": "杭州",
+            "pinyin": "hangzhou"
+          },
+          {
+            "id": "93",
+            "domain": "hrb",
+            "name": "哈尔滨",
+            "pinyin": "haerbin"
+          },
+          {
+            "id": "123",
+            "domain": "hf",
+            "name": "合肥",
+            "pinyin": "hefei"
+          },
+          {
+            "id": "143",
+            "domain": "hn",
+            "name": "海口",
+            "pinyin": "haikou"
+          },
+          {
+            "id": "145",
+            "domain": "nmg",
+            "name": "呼和浩特",
+            "pinyin": "huhehaote"
+          },
+          {
+            "id": "4",
+            "domain": "handan",
+            "name": "邯郸",
+            "pinyin": "handan"
+          },
+          {
+            "id": "96",
+            "domain": "hegang",
+            "name": "鹤岗",
+            "pinyin": "hegang"
+          },
+          {
+            "id": "207",
+            "domain": "hengyang",
+            "name": "衡阳",
+            "pinyin": "hengyang"
+          },
+          {
+            "id": "30",
+            "domain": "huzhou",
+            "name": "湖州",
+            "pinyin": "huzhou"
+          },
+          {
+            "id": "107",
+            "domain": "hebi",
+            "name": "鹤壁",
+            "pinyin": "hebi"
+          },
+          {
+            "id": "234",
+            "domain": "honghe",
+            "name": "红河",
+            "pinyin": "honghe"
+          },
+          {
+            "id": "182",
+            "domain": "hanzhong",
+            "name": "汉中",
+            "pinyin": "hanzhong"
+          },
+          {
+            "id": "72",
+            "domain": "huaian",
+            "name": "淮安",
+            "pinyin": "huaian"
+          },
+          {
+            "id": "23",
+            "domain": "huizhou",
+            "name": "惠州",
+            "pinyin": "huizhou"
+          },
+          {
+            "id": "140",
+            "domain": "hechi",
+            "name": "河池",
+            "pinyin": "hechi"
+          },
+          {
+            "id": "64",
+            "domain": "huludao",
+            "name": "葫芦岛",
+            "pinyin": "huludao"
+          },
+          {
+            "id": "11",
+            "domain": "hengshui",
+            "name": "衡水",
+            "pinyin": "hengshui"
+          },
+          {
+            "id": "310",
+            "domain": "huainan",
+            "name": "淮南",
+            "pinyin": "huainan"
+          },
+          {
+            "id": "311",
+            "domain": "huaibei",
+            "name": "淮北",
+            "pinyin": "huaibei"
+          },
+          {
+            "id": "328",
+            "domain": "huanggang",
+            "name": "黄冈",
+            "pinyin": "huanggang"
+          },
+          {
+            "id": "319",
+            "domain": "hezhou",
+            "name": "贺州",
+            "pinyin": "hezhou"
+          },
+          {
+            "id": "336",
+            "domain": "huaihua",
+            "name": "怀化",
+            "pinyin": "huaihua"
+          },
+          {
+            "id": "313",
+            "domain": "huangshan",
+            "name": "黄山",
+            "pinyin": "huangshan"
+          },
+          {
+            "id": "268",
+            "domain": "heyuan",
+            "name": "河源",
+            "pinyin": "heyuan"
+          },
+          {
+            "id": "338",
+            "domain": "heze",
+            "name": "菏泽",
+            "pinyin": "heze"
+          }
+        ]
+      },
+      {
+        "letter": "J",
+        "citys": [{
+            "id": "113",
+            "domain": "jn",
+            "name": "济南",
+            "pinyin": "jinan"
+          },
+          {
+            "id": "85",
+            "domain": "jilin",
+            "name": "吉林",
+            "pinyin": "jilinshi"
+          },
+          {
+            "id": "215",
+            "domain": "jingdezhen",
+            "name": "景德镇",
+            "pinyin": "jingdezhen"
+          },
+          {
+            "id": "29",
+            "domain": "jiaxing",
+            "name": "嘉兴",
+            "pinyin": "jiaxing"
+          },
+          {
+            "id": "106",
+            "domain": "jiaozuo",
+            "name": "焦作",
+            "pinyin": "jiaozuo"
+          },
+          {
+            "id": "217",
+            "domain": "jiujiang",
+            "name": "九江",
+            "pinyin": "jiujiang"
+          },
+          {
+            "id": "60",
+            "domain": "jinzhou",
+            "name": "锦州",
+            "pinyin": "jinzhou"
+          },
+          {
+            "id": "21",
+            "domain": "jiangmen",
+            "name": "江门",
+            "pinyin": "jiangmen"
+          },
+          {
+            "id": "32",
+            "domain": "jinhua",
+            "name": "金华",
+            "pinyin": "jinhua"
+          },
+          {
+            "id": "161",
+            "domain": "jinzhong",
+            "name": "晋中",
+            "pinyin": "jinzhong"
+          },
+          {
+            "id": "100",
+            "domain": "jiamusi",
+            "name": "佳木斯",
+            "pinyin": "jiamusi"
+          },
+          {
+            "id": "221",
+            "domain": "jian",
+            "name": "吉安",
+            "pinyin": "jian"
+          },
+          {
+            "id": "112",
+            "domain": "jiyuan",
+            "name": "济源",
+            "pinyin": "jiyuan"
+          },
+          {
+            "id": "304",
+            "domain": "jining",
+            "name": "济宁",
+            "pinyin": "jining"
+          },
+          {
+            "id": "272",
+            "domain": "jieyang",
+            "name": "揭阳",
+            "pinyin": "jieyang"
+          }
+        ]
+      },
+      {
+        "letter": "K",
+        "citys": [{
+            "id": "225",
+            "domain": "km",
+            "name": "昆明",
+            "pinyin": "kunming"
+          },
+          {
+            "id": "293",
+            "domain": "kaifeng",
+            "name": "开封",
+            "pinyin": "kaifeng"
+          },
+          {
+            "id": "383",
+            "domain": "kunshan",
+            "name": "昆山",
+            "pinyin": "kunshan"
+          }
+        ]
+      },
+      {
+        "letter": "L",
+        "citys": [{
+            "id": "104",
+            "domain": "luoyang",
+            "name": "洛阳",
+            "pinyin": "luoyang"
+          },
+          {
+            "id": "47",
+            "domain": "luzhou",
+            "name": "泸州",
+            "pinyin": "luzhou"
+          },
+          {
+            "id": "133",
+            "domain": "liuzhou",
+            "name": "柳州",
+            "pinyin": "liuzhou"
+          },
+          {
+            "id": "87",
+            "domain": "liaoyuan",
+            "name": "辽源",
+            "pinyin": "liaoyuan"
+          },
+          {
+            "id": "71",
+            "domain": "lianyungang",
+            "name": "连云港",
+            "pinyin": "lianyungang"
+          },
+          {
+            "id": "50",
+            "domain": "leshan",
+            "name": "乐山",
+            "pinyin": "leshan"
+          },
+          {
+            "id": "62",
+            "domain": "liaoyang",
+            "name": "辽阳",
+            "pinyin": "liaoyang"
+          },
+          {
+            "id": "82",
+            "domain": "longyan",
+            "name": "龙岩",
+            "pinyin": "longyan"
+          },
+          {
+            "id": "10",
+            "domain": "langfang",
+            "name": "廊坊",
+            "pinyin": "langfang"
+          },
+          {
+            "id": "110",
+            "domain": "luohe",
+            "name": "漯河",
+            "pinyin": "luohe"
+          },
+          {
+            "id": "121",
+            "domain": "laiwu",
+            "name": "莱芜",
+            "pinyin": "laiwu"
+          },
+          {
+            "id": "132",
+            "domain": "luan",
+            "name": "六安",
+            "pinyin": "luan"
+          },
+          {
+            "id": "141",
+            "domain": "laibin",
+            "name": "来宾",
+            "pinyin": "laibin"
+          },
+          {
+            "id": "164",
+            "domain": "linfen",
+            "name": "临汾",
+            "pinyin": "linfen"
+          },
+          {
+            "id": "213",
+            "domain": "loudi",
+            "name": "娄底",
+            "pinyin": "loudi"
+          },
+          {
+            "id": "230",
+            "domain": "lijiang",
+            "name": "丽江",
+            "pinyin": "lijiang"
+          },
+          {
+            "id": "285",
+            "domain": "lishui",
+            "name": "丽水",
+            "pinyin": "lishui"
+          },
+          {
+            "id": "323",
+            "domain": "lvliang",
+            "name": "吕梁",
+            "pinyin": "lvliang"
+          },
+          {
+            "id": "232",
+            "domain": "lincang",
+            "name": "临沧",
+            "pinyin": "lincang"
+          },
+          {
+            "id": "307",
+            "domain": "linyi",
+            "name": "临沂",
+            "pinyin": "linyi"
+          },
+          {
+            "id": "309",
+            "domain": "liaocheng",
+            "name": "聊城",
+            "pinyin": "liaocheng"
+          }
+        ]
+      },
+      {
+        "letter": "M",
+        "citys": [{
+            "id": "126",
+            "domain": "maanshan",
+            "name": "马鞍山",
+            "pinyin": "maanshan"
+          },
+          {
+            "id": "49",
+            "domain": "mianyang",
+            "name": "绵阳",
+            "pinyin": "mianyang"
+          },
+          {
+            "id": "22",
+            "domain": "maoming",
+            "name": "茂名",
+            "pinyin": "maoming"
+          },
+          {
+            "id": "302",
+            "domain": "mudanjiang",
+            "name": "牡丹江",
+            "pinyin": "mudanjiang"
+          },
+          {
+            "id": "266",
+            "domain": "meizhou",
+            "name": "梅州",
+            "pinyin": "meizhou"
+          },
+          {
+            "id": "279",
+            "domain": "meishan",
+            "name": "眉山",
+            "pinyin": "meishan"
+          }
+        ]
+      },
+      {
+        "letter": "N",
+        "citys": [{
+            "id": "65",
+            "domain": "nj",
+            "name": "南京",
+            "pinyin": "nanjing"
+          },
+          {
+            "id": "142",
+            "domain": "nn",
+            "name": "南宁",
+            "pinyin": "nanning"
+          },
+          {
+            "id": "214",
+            "domain": "nc",
+            "name": "南昌",
+            "pinyin": "nanchang"
+          },
+          {
+            "id": "27",
+            "domain": "nb",
+            "name": "宁波",
+            "pinyin": "ningbo"
+          },
+          {
+            "id": "51",
+            "domain": "nanchong",
+            "name": "南充",
+            "pinyin": "nanchong"
+          },
+          {
+            "id": "70",
+            "domain": "nantong",
+            "name": "南通",
+            "pinyin": "nantong"
+          },
+          {
+            "id": "81",
+            "domain": "nanping",
+            "name": "南平",
+            "pinyin": "nanping"
+          },
+          {
+            "id": "111",
+            "domain": "nanyang",
+            "name": "南阳",
+            "pinyin": "nanyang"
+          },
+          {
+            "id": "83",
+            "domain": "ningde",
+            "name": "宁德",
+            "pinyin": "ningde"
+          },
+          {
+            "id": "277",
+            "domain": "neijiang",
+            "name": "内江",
+            "pinyin": "neijiang"
+          }
+        ]
+      },
+      {
+        "letter": "P",
+        "citys": [{
+            "id": "77",
+            "domain": "putian",
+            "name": "莆田",
+            "pinyin": "putian"
+          },
+          {
+            "id": "105",
+            "domain": "pingdingshan",
+            "name": "平顶山",
+            "pinyin": "pingdingshan"
+          },
+          {
+            "id": "216",
+            "domain": "pingxiang",
+            "name": "萍乡",
+            "pinyin": "pingxiang"
+          },
+          {
+            "id": "63",
+            "domain": "panjin",
+            "name": "盘锦",
+            "pinyin": "panjin"
+          },
+          {
+            "id": "231",
+            "domain": "puer",
+            "name": "普洱",
+            "pinyin": "puer"
+          },
+          {
+            "id": "294",
+            "domain": "puyang",
+            "name": "濮阳",
+            "pinyin": "puyang"
+          },
+          {
+            "id": "381",
+            "domain": "pixian",
+            "name": "郫县",
+            "pinyin": "pixian"
+          }
+        ]
+      },
+      {
+        "letter": "Q",
+        "citys": [{
+            "id": "94",
+            "domain": "qiqihaer",
+            "name": "齐齐哈尔",
+            "pinyin": "qiqihaer"
+          },
+          {
+            "id": "114",
+            "domain": "qd",
+            "name": "青岛",
+            "pinyin": "qingdao"
+          },
+          {
+            "id": "226",
+            "domain": "qujing",
+            "name": "曲靖",
+            "pinyin": "qujing"
+          },
+          {
+            "id": "377",
+            "domain": "qh",
+            "name": "琼海",
+            "pinyin": "qionghai"
+          },
+          {
+            "id": "79",
+            "domain": "quanzhou",
+            "name": "泉州",
+            "pinyin": "quanzhou"
+          },
+          {
+            "id": "136",
+            "domain": "qinzhou",
+            "name": "钦州",
+            "pinyin": "qinzhou"
+          },
+          {
+            "id": "33",
+            "domain": "quzhou",
+            "name": "衢州",
+            "pinyin": "quzhou"
+          },
+          {
+            "id": "3",
+            "domain": "qinhuangdao",
+            "name": "秦皇岛",
+            "pinyin": "qinhuangdao"
+          },
+          {
+            "id": "270",
+            "domain": "qingyuan",
+            "name": "清远",
+            "pinyin": "qingyuan"
+          }
+        ]
+      },
+      {
+        "letter": "R",
+        "citys": [{
+          "id": "306",
+          "domain": "rizhao",
+          "name": "日照",
+          "pinyin": "rizhao"
+        }]
+      },
+      {
+        "letter": "S",
+        "citys": [{
+            "id": "1",
+            "domain": "sjz",
+            "name": "石家庄",
+            "pinyin": "shijiazhuang"
+          },
+          {
+            "id": "13",
+            "domain": "sh",
+            "name": "上海",
+            "pinyin": "shanghai"
+          },
+          {
+            "id": "55",
+            "domain": "sy",
+            "name": "沈阳",
+            "pinyin": "shenyang"
+          },
+          {
+            "id": "17",
+            "domain": "sz",
+            "name": "深圳",
+            "pinyin": "shenzhen"
+          },
+          {
+            "id": "67",
+            "domain": "su",
+            "name": "苏州",
+            "pinyin": "suzhou"
+          },
+          {
+            "id": "144",
+            "domain": "sanya",
+            "name": "三亚",
+            "pinyin": "sanya"
+          },
+          {
+            "id": "86",
+            "domain": "siping",
+            "name": "四平",
+            "pinyin": "siping"
+          },
+          {
+            "id": "78",
+            "domain": "sanming",
+            "name": "三明",
+            "pinyin": "sanming"
+          },
+          {
+            "id": "19",
+            "domain": "shantou",
+            "name": "汕头",
+            "pinyin": "shantou"
+          },
+          {
+            "id": "208",
+            "domain": "shaoyang",
+            "name": "邵阳",
+            "pinyin": "shaoyang"
+          },
+          {
+            "id": "31",
+            "domain": "shaoxing",
+            "name": "绍兴",
+            "pinyin": "shaoxing"
+          },
+          {
+            "id": "160",
+            "domain": "shuozhou",
+            "name": "朔州",
+            "pinyin": "shuozhou"
+          },
+          {
+            "id": "90",
+            "domain": "songyuan",
+            "name": "松原",
+            "pinyin": "songyuan"
+          },
+          {
+            "id": "130",
+            "domain": "ahsuzhou",
+            "name": "宿州",
+            "pinyin": "suzhouah"
+          },
+          {
+            "id": "224",
+            "domain": "shangrao",
+            "name": "上饶",
+            "pinyin": "shangrao"
+          },
+          {
+            "id": "185",
+            "domain": "shangluo",
+            "name": "商洛",
+            "pinyin": "shangluo"
+          },
+          {
+            "id": "263",
+            "domain": "shaoguan",
+            "name": "韶关",
+            "pinyin": "shaoguan"
+          },
+          {
+            "id": "276",
+            "domain": "suining",
+            "name": "遂宁",
+            "pinyin": "suining"
+          },
+          {
+            "id": "292",
+            "domain": "suqian",
+            "name": "宿迁",
+            "pinyin": "suqian"
+          },
+          {
+            "id": "296",
+            "domain": "sanmenxia",
+            "name": "三门峡",
+            "pinyin": "sanmenxia"
+          },
+          {
+            "id": "267",
+            "domain": "shanwei",
+            "name": "汕尾",
+            "pinyin": "shanwei"
+          },
+          {
+            "id": "382",
+            "domain": "shuangliu",
+            "name": "双流",
+            "pinyin": "shuangliu"
+          }
+        ]
+      },
+      {
+        "letter": "T",
+        "citys": [{
+            "id": "14",
+            "domain": "tj",
+            "name": "天津",
+            "pinyin": "tianjin"
+          },
+          {
+            "id": "155",
+            "domain": "ty",
+            "name": "太原",
+            "pinyin": "taiyuan"
+          },
+          {
+            "id": "2",
+            "domain": "tangshan",
+            "name": "唐山",
+            "pinyin": "tangshan"
+          },
+          {
+            "id": "177",
+            "domain": "tongchuan",
+            "name": "铜川",
+            "pinyin": "tongchuan"
+          },
+          {
+            "id": "88",
+            "domain": "tonghua",
+            "name": "通化",
+            "pinyin": "tonghua"
+          },
+          {
+            "id": "35",
+            "domain": "zjtaizhou",
+            "name": "台州",
+            "pinyin": "zjtaizhou"
+          },
+          {
+            "id": "291",
+            "domain": "jstaizhou",
+            "name": "泰州",
+            "pinyin": "jstaizhou"
+          },
+          {
+            "id": "305",
+            "domain": "taian",
+            "name": "泰安",
+            "pinyin": "taian"
+          },
+          {
+            "id": "288",
+            "domain": "tieling",
+            "name": "铁岭",
+            "pinyin": "tieling"
+          },
+          {
+            "id": "312",
+            "domain": "tongling",
+            "name": "铜陵",
+            "pinyin": "tongling"
+          },
+          {
+            "id": "332",
+            "domain": "tianmen",
+            "name": "天门",
+            "pinyin": "tianmen"
+          }
+        ]
+      },
+      {
+        "letter": "W",
+        "citys": [{
+            "id": "194",
+            "domain": "wh",
+            "name": "武汉",
+            "pinyin": "wuhan"
+          },
+          {
+            "id": "124",
+            "domain": "wuhu",
+            "name": "芜湖",
+            "pinyin": "wuhu"
+          },
+          {
+            "id": "28",
+            "domain": "wenzhou",
+            "name": "温州",
+            "pinyin": "wenzhou"
+          },
+          {
+            "id": "66",
+            "domain": "wx",
+            "name": "无锡",
+            "pinyin": "wuxi"
+          },
+          {
+            "id": "120",
+            "domain": "wei",
+            "name": "威海",
+            "pinyin": "weihai"
+          },
+          {
+            "id": "135",
+            "domain": "wuzhou",
+            "name": "梧州",
+            "pinyin": "wuzhou"
+          },
+          {
+            "id": "180",
+            "domain": "weinan",
+            "name": "渭南",
+            "pinyin": "weinan"
+          },
+          {
+            "id": "119",
+            "domain": "weifang",
+            "name": "潍坊",
+            "pinyin": "weifang"
+          },
+          {
+            "id": "233",
+            "domain": "wenshan",
+            "name": "文山",
+            "pinyin": "wenshan"
+          },
+          {
+            "id": "353",
+            "domain": "wuzhishan",
+            "name": "五指山",
+            "pinyin": "wuzhishan"
+          }
+        ]
+      },
+      {
+        "letter": "X",
+        "citys": [{
+            "id": "176",
+            "domain": "xa",
+            "name": "西安",
+            "pinyin": "xian"
+          },
+          {
+            "id": "76",
+            "domain": "xm",
+            "name": "厦门",
+            "pinyin": "xiamen"
+          },
+          {
+            "id": "196",
+            "domain": "xiangyang",
+            "name": "襄阳",
+            "pinyin": "xiangyang"
+          },
+          {
+            "id": "206",
+            "domain": "xiangtan",
+            "name": "湘潭",
+            "pinyin": "xiangtan"
+          },
+          {
+            "id": "5",
+            "domain": "xingtai",
+            "name": "邢台",
+            "pinyin": "xingtai"
+          },
+          {
+            "id": "68",
+            "domain": "xuzhou",
+            "name": "徐州",
+            "pinyin": "xuzhou"
+          },
+          {
+            "id": "179",
+            "domain": "xianyang",
+            "name": "咸阳",
+            "pinyin": "xianyang"
+          },
+          {
+            "id": "218",
+            "domain": "xinyu",
+            "name": "新余",
+            "pinyin": "xinyu"
+          },
+          {
+            "id": "108",
+            "domain": "xinxiang",
+            "name": "新乡",
+            "pinyin": "xinxiang"
+          },
+          {
+            "id": "235",
+            "domain": "xishuangbanna",
+            "name": "西双版纳",
+            "pinyin": "xishuangbanna"
+          },
+          {
+            "id": "163",
+            "domain": "xinzhou",
+            "name": "忻州",
+            "pinyin": "xinzhou"
+          },
+          {
+            "id": "202",
+            "domain": "xiantao",
+            "name": "仙桃",
+            "pinyin": "xiantao"
+          },
+          {
+            "id": "327",
+            "domain": "xiaogan",
+            "name": "孝感",
+            "pinyin": "xiaogan"
+          },
+          {
+            "id": "295",
+            "domain": "xuchang",
+            "name": "许昌",
+            "pinyin": "xuchang"
+          },
+          {
+            "id": "337",
+            "domain": "xiangxi",
+            "name": "湘西",
+            "pinyin": "xiangxi"
+          },
+          {
+            "id": "298",
+            "domain": "xinyang",
+            "name": "信阳",
+            "pinyin": "xinyang"
+          },
+          {
+            "id": "316",
+            "domain": "xuancheng",
+            "name": "宣城",
+            "pinyin": "xuancheng"
+          }
+        ]
+      },
+      {
+        "letter": "Y",
+        "citys": [{
+            "id": "227",
+            "domain": "yuxi",
+            "name": "玉溪",
+            "pinyin": "yuxi"
+          },
+          {
+            "id": "181",
+            "domain": "yanan",
+            "name": "延安",
+            "pinyin": "yanan"
+          },
+          {
+            "id": "199",
+            "domain": "yichang",
+            "name": "宜昌",
+            "pinyin": "yichang"
+          },
+          {
+            "id": "209",
+            "domain": "yueyang",
+            "name": "岳阳",
+            "pinyin": "yueyang"
+          },
+          {
+            "id": "219",
+            "domain": "yingtan",
+            "name": "鹰潭",
+            "pinyin": "yingtan"
+          },
+          {
+            "id": "61",
+            "domain": "yingkou",
+            "name": "营口",
+            "pinyin": "yingkou"
+          },
+          {
+            "id": "118",
+            "domain": "yantai",
+            "name": "烟台",
+            "pinyin": "yantai"
+          },
+          {
+            "id": "138",
+            "domain": "gxyulin",
+            "name": "玉林",
+            "pinyin": "yulin"
+          },
+          {
+            "id": "162",
+            "domain": "yuncheng",
+            "name": "运城",
+            "pinyin": "yuncheng"
+          },
+          {
+            "id": "183",
+            "domain": "sxyulin",
+            "name": "榆林",
+            "pinyin": "sxyulin"
+          },
+          {
+            "id": "73",
+            "domain": "yancheng",
+            "name": "盐城",
+            "pinyin": "yancheng"
+          },
+          {
+            "id": "92",
+            "domain": "yanbian",
+            "name": "延边",
+            "pinyin": "yanbian"
+          },
+          {
+            "id": "212",
+            "domain": "yongzhou",
+            "name": "永州",
+            "pinyin": "yongzhou"
+          },
+          {
+            "id": "52",
+            "domain": "yibin",
+            "name": "宜宾",
+            "pinyin": "yibin"
+          },
+          {
+            "id": "74",
+            "domain": "yangzhou",
+            "name": "扬州",
+            "pinyin": "yangzhou"
+          },
+          {
+            "id": "222",
+            "domain": "jxyichun",
+            "name": "宜春",
+            "pinyin": "jxyichun"
+          },
+          {
+            "id": "335",
+            "domain": "yiyang",
+            "name": "益阳",
+            "pinyin": "yiyang"
+          },
+          {
+            "id": "386",
+            "domain": "yiwu",
+            "name": "义乌",
+            "pinyin": "yiwu"
+          },
+          {
+            "id": "269",
+            "domain": "yangjiang",
+            "name": "阳江",
+            "pinyin": "yangjiang"
+          },
+          {
+            "id": "280",
+            "domain": "yaan",
+            "name": "雅安",
+            "pinyin": "yaan"
+          },
+          {
+            "id": "273",
+            "domain": "yunfu",
+            "name": "云浮",
+            "pinyin": "yunfu"
+          }
+        ]
+      },
+      {
+        "letter": "Z",
+        "citys": [{
+            "id": "103",
+            "domain": "zz",
+            "name": "郑州",
+            "pinyin": "zhengzhou"
+          },
+          {
+            "id": "46",
+            "domain": "zigong",
+            "name": "自贡",
+            "pinyin": "zigong"
+          },
+          {
+            "id": "205",
+            "domain": "zhuzhou",
+            "name": "株洲",
+            "pinyin": "zhuzhou"
+          },
+          {
+            "id": "18",
+            "domain": "zhuhai",
+            "name": "珠海",
+            "pinyin": "zhuhai"
+          },
+          {
+            "id": "115",
+            "domain": "zibo",
+            "name": "淄博",
+            "pinyin": "zibo"
+          },
+          {
+            "id": "229",
+            "domain": "zhaotong",
+            "name": "昭通",
+            "pinyin": "zhaotong"
+          },
+          {
+            "id": "80",
+            "domain": "zhangzhou",
+            "name": "漳州",
+            "pinyin": "zhangzhou"
+          },
+          {
+            "id": "25",
+            "domain": "zhongshan",
+            "name": "中山",
+            "pinyin": "zhongshan"
+          },
+          {
+            "id": "34",
+            "domain": "zhoushan",
+            "name": "舟山",
+            "pinyin": "zhoushan"
+          },
+          {
+            "id": "290",
+            "domain": "zhenjiang",
+            "name": "镇江",
+            "pinyin": "zhenjiang"
+          },
+          {
+            "id": "334",
+            "domain": "zhangjiajie",
+            "name": "张家界",
+            "pinyin": "zhangjiajie"
+          },
+          {
+            "id": "265",
+            "domain": "zhaoqing",
+            "name": "肇庆",
+            "pinyin": "zhaoqing"
+          },
+          {
+            "id": "299",
+            "domain": "zhoukou",
+            "name": "周口",
+            "pinyin": "zhoukou"
+          },
+          {
+            "id": "300",
+            "domain": "zhumadian",
+            "name": "驻马店",
+            "pinyin": "zhumadian"
+          },
+          {
+            "id": "282",
+            "domain": "ziyang",
+            "name": "资阳",
+            "pinyin": "ziyang"
+          }
+        ]
+      }
+    ]
+  },
+  "message": "succeed"
+}

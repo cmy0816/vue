@@ -1,0 +1,30 @@
+header{
+    display:flex;
+    align-items: center;
+    padding:.05rem;
+    justify-content: space-between;
+    height:.5rem;
+    border-bottom:.01rem solid #ccc;
+    .logo{
+        height:calc(100% - .2rem);
+        padding-left: 1.25rem;
+        flex:1;
+        background: url(https://sta.maodou.com/xinche_wap/static/images/bar-logo@2x.5dd1f2dc.png) no-repeat .05333rem;
+        background-size: 1.2rem .4rem;
+        font-size: .16rem;
+        color: #8d90ac;
+        letter-spacing: .0436rem;
+        line-height: .4rem;
+        }
+    button{
+        width: .8rem;
+        background-image: -webkit-linear-gradient(left,#fb7414,#fb4a14);
+        background-image: linear-gradient(90deg,#fb7414,#fb4a14);
+        border-radius: .1rem;
+        font-size: .16rem;
+        color: #fff;
+        padding: .1rem 0;
+        text-align: center;
+        border:0;
+        }
+}

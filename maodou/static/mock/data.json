@@ -1,0 +1,1647 @@
+{
+    "code": 0,
+    "data": {
+        "list": [
+            {
+                "letter": "\u5168",
+                "citys": [
+                    {
+                        "id": "0",
+                        "name": "\u5168\u56fd",
+                        "domain": "www",
+                        "pinyin": "quanguo"
+                    }
+                ]
+            },
+            {
+                "letter": "A",
+                "citys": [
+                    {
+                        "id": "57",
+                        "domain": "anshan",
+                        "name": "\u978d\u5c71",
+                        "pinyin": "anshan"
+                    },
+                    {
+                        "id": "127",
+                        "domain": "anqing",
+                        "name": "\u5b89\u5e86",
+                        "pinyin": "anqing"
+                    },
+                    {
+                        "id": "109",
+                        "domain": "anyang",
+                        "name": "\u5b89\u9633",
+                        "pinyin": "anyang"
+                    },
+                    {
+                        "id": "184",
+                        "domain": "ankang",
+                        "name": "\u5b89\u5eb7",
+                        "pinyin": "ankang"
+                    }
+                ]
+            },
+            {
+                "letter": "B",
+                "citys": [
+                    {
+                        "id": "12",
+                        "domain": "bj",
+                        "name": "\u5317\u4eac",
+                        "pinyin": "beijing"
+                    },
+                    {
+                        "id": "146",
+                        "domain": "baotou",
+                        "name": "\u5305\u5934",
+                        "pinyin": "baotou"
+                    },
+                    {
+                        "id": "125",
+                        "domain": "bengbu",
+                        "name": "\u868c\u57e0",
+                        "pinyin": "bengbu"
+                    },
+                    {
+                        "id": "178",
+                        "domain": "baoji",
+                        "name": "\u5b9d\u9e21",
+                        "pinyin": "baoji"
+                    },
+                    {
+                        "id": "228",
+                        "domain": "baoshan",
+                        "name": "\u4fdd\u5c71",
+                        "pinyin": "baoshan"
+                    },
+                    {
+                        "id": "6",
+                        "domain": "baoding",
+                        "name": "\u4fdd\u5b9a",
+                        "pinyin": "baoding"
+                    },
+                    {
+                        "id": "89",
+                        "domain": "baishan",
+                        "name": "\u767d\u5c71",
+                        "pinyin": "baishan"
+                    },
+                    {
+                        "id": "91",
+                        "domain": "baicheng",
+                        "name": "\u767d\u57ce",
+                        "pinyin": "baicheng"
+                    },
+                    {
+                        "id": "139",
+                        "domain": "baise",
+                        "name": "\u767e\u8272",
+                        "pinyin": "baise"
+                    },
+                    {
+                        "id": "122",
+                        "domain": "binzhou",
+                        "name": "\u6ee8\u5dde",
+                        "pinyin": "binzhou"
+                    },
+                    {
+                        "id": "286",
+                        "domain": "benxi",
+                        "name": "\u672c\u6eaa",
+                        "pinyin": "benxi"
+                    },
+                    {
+                        "id": "317",
+                        "domain": "beihai",
+                        "name": "\u5317\u6d77",
+                        "pinyin": "beihai"
+                    },
+                    {
+                        "id": "314",
+                        "domain": "bozhou",
+                        "name": "\u4eb3\u5dde",
+                        "pinyin": "bozhou"
+                    },
+                    {
+                        "id": "281",
+                        "domain": "bazhong",
+                        "name": "\u5df4\u4e2d",
+                        "pinyin": "bazhong"
+                    }
+                ]
+            },
+            {
+                "letter": "C",
+                "citys": [
+                    {
+                        "id": "15",
+                        "domain": "cq",
+                        "name": "\u91cd\u5e86",
+                        "pinyin": "chongqing"
+                    },
+                    {
+                        "id": "45",
+                        "domain": "cd",
+                        "name": "\u6210\u90fd",
+                        "pinyin": "chengdu"
+                    },
+                    {
+                        "id": "84",
+                        "domain": "cc",
+                        "name": "\u957f\u6625",
+                        "pinyin": "changchun"
+                    },
+                    {
+                        "id": "204",
+                        "domain": "cs",
+                        "name": "\u957f\u6c99",
+                        "pinyin": "changsha"
+                    },
+                    {
+                        "id": "158",
+                        "domain": "changzhi",
+                        "name": "\u957f\u6cbb",
+                        "pinyin": "changzhi"
+                    },
+                    {
+                        "id": "69",
+                        "domain": "changzhou",
+                        "name": "\u5e38\u5dde",
+                        "pinyin": "changzhou"
+                    },
+                    {
+                        "id": "128",
+                        "domain": "chuzhou",
+                        "name": "\u6ec1\u5dde",
+                        "pinyin": "chuzhou"
+                    },
+                    {
+                        "id": "8",
+                        "domain": "chengde",
+                        "name": "\u627f\u5fb7",
+                        "pinyin": "chengde"
+                    },
+                    {
+                        "id": "210",
+                        "domain": "changde",
+                        "name": "\u5e38\u5fb7",
+                        "pinyin": "changde"
+                    },
+                    {
+                        "id": "9",
+                        "domain": "cangzhou",
+                        "name": "\u6ca7\u5dde",
+                        "pinyin": "cangzhou"
+                    },
+                    {
+                        "id": "211",
+                        "domain": "chenzhou",
+                        "name": "\u90f4\u5dde",
+                        "pinyin": "chenzhou"
+                    },
+                    {
+                        "id": "236",
+                        "domain": "chuxiong",
+                        "name": "\u695a\u96c4",
+                        "pinyin": "chuxiong"
+                    },
+                    {
+                        "id": "131",
+                        "domain": "chaohu",
+                        "name": "\u5de2\u6e56",
+                        "pinyin": "chaohu"
+                    },
+                    {
+                        "id": "385",
+                        "domain": "cixi",
+                        "name": "\u6148\u6eaa",
+                        "pinyin": "cixi"
+                    },
+                    {
+                        "id": "320",
+                        "domain": "chongzuo",
+                        "name": "\u5d07\u5de6",
+                        "pinyin": "chongzuo"
+                    },
+                    {
+                        "id": "384",
+                        "domain": "changshu",
+                        "name": "\u5e38\u719f",
+                        "pinyin": "changshu"
+                    },
+                    {
+                        "id": "315",
+                        "domain": "chizhou",
+                        "name": "\u6c60\u5dde",
+                        "pinyin": "chizhou"
+                    }
+                ]
+            },
+            {
+                "letter": "D",
+                "citys": [
+                    {
+                        "id": "56",
+                        "domain": "dl",
+                        "name": "\u5927\u8fde",
+                        "pinyin": "dalian"
+                    },
+                    {
+                        "id": "156",
+                        "domain": "datong",
+                        "name": "\u5927\u540c",
+                        "pinyin": "datong"
+                    },
+                    {
+                        "id": "24",
+                        "domain": "dg",
+                        "name": "\u4e1c\u839e",
+                        "pinyin": "dongguan"
+                    },
+                    {
+                        "id": "48",
+                        "domain": "deyang",
+                        "name": "\u5fb7\u9633",
+                        "pinyin": "deyang"
+                    },
+                    {
+                        "id": "98",
+                        "domain": "daqing",
+                        "name": "\u5927\u5e86",
+                        "pinyin": "daqing"
+                    },
+                    {
+                        "id": "117",
+                        "domain": "dongying",
+                        "name": "\u4e1c\u8425",
+                        "pinyin": "dongying"
+                    },
+                    {
+                        "id": "378",
+                        "domain": "danzhou",
+                        "name": "\u510b\u5dde",
+                        "pinyin": "danzhou"
+                    },
+                    {
+                        "id": "53",
+                        "domain": "dazhou",
+                        "name": "\u8fbe\u5dde",
+                        "pinyin": "dazhou"
+                    },
+                    {
+                        "id": "237",
+                        "domain": "dali",
+                        "name": "\u5927\u7406",
+                        "pinyin": "dali"
+                    },
+                    {
+                        "id": "238",
+                        "domain": "dehong",
+                        "name": "\u5fb7\u5b8f",
+                        "pinyin": "dehong"
+                    },
+                    {
+                        "id": "308",
+                        "domain": "dezhou",
+                        "name": "\u5fb7\u5dde",
+                        "pinyin": "dezhou"
+                    }
+                ]
+            },
+            {
+                "letter": "E",
+                "citys": [
+                    {
+                        "id": "201",
+                        "domain": "ezhou",
+                        "name": "\u9102\u5dde",
+                        "pinyin": "ezhou"
+                    }
+                ]
+            },
+            {
+                "letter": "F",
+                "citys": [
+                    {
+                        "id": "75",
+                        "domain": "fz",
+                        "name": "\u798f\u5dde",
+                        "pinyin": "fuzhou"
+                    },
+                    {
+                        "id": "58",
+                        "domain": "fushun",
+                        "name": "\u629a\u987a",
+                        "pinyin": "fushun"
+                    },
+                    {
+                        "id": "20",
+                        "domain": "foshan",
+                        "name": "\u4f5b\u5c71",
+                        "pinyin": "foshan"
+                    },
+                    {
+                        "id": "129",
+                        "domain": "fuyang",
+                        "name": "\u961c\u9633",
+                        "pinyin": "fuyang"
+                    },
+                    {
+                        "id": "223",
+                        "domain": "jxfuzhou",
+                        "name": "\u629a\u5dde",
+                        "pinyin": "jxfuzhou"
+                    },
+                    {
+                        "id": "318",
+                        "domain": "fangchenggang",
+                        "name": "\u9632\u57ce\u6e2f",
+                        "pinyin": "fangchenggang"
+                    }
+                ]
+            },
+            {
+                "letter": "G",
+                "citys": [
+                    {
+                        "id": "16",
+                        "domain": "gz",
+                        "name": "\u5e7f\u5dde",
+                        "pinyin": "guangzhou"
+                    },
+                    {
+                        "id": "36",
+                        "domain": "gy",
+                        "name": "\u8d35\u9633",
+                        "pinyin": "guiyang"
+                    },
+                    {
+                        "id": "134",
+                        "domain": "gl",
+                        "name": "\u6842\u6797",
+                        "pinyin": "guilin"
+                    },
+                    {
+                        "id": "137",
+                        "domain": "guigang",
+                        "name": "\u8d35\u6e2f",
+                        "pinyin": "guigang"
+                    },
+                    {
+                        "id": "220",
+                        "domain": "ganzhou",
+                        "name": "\u8d63\u5dde",
+                        "pinyin": "ganzhou"
+                    },
+                    {
+                        "id": "275",
+                        "domain": "guangyuan",
+                        "name": "\u5e7f\u5143",
+                        "pinyin": "guangyuan"
+                    },
+                    {
+                        "id": "278",
+                        "domain": "guangan",
+                        "name": "\u5e7f\u5b89",
+                        "pinyin": "guangan"
+                    }
+                ]
+            },
+            {
+                "letter": "H",
+                "citys": [
+                    {
+                        "id": "26",
+                        "domain": "hz",
+                        "name": "\u676d\u5dde",
+                        "pinyin": "hangzhou"
+                    },
+                    {
+                        "id": "93",
+                        "domain": "hrb",
+                        "name": "\u54c8\u5c14\u6ee8",
+                        "pinyin": "haerbin"
+                    },
+                    {
+                        "id": "123",
+                        "domain": "hf",
+                        "name": "\u5408\u80a5",
+                        "pinyin": "hefei"
+                    },
+                    {
+                        "id": "143",
+                        "domain": "hn",
+                        "name": "\u6d77\u53e3",
+                        "pinyin": "haikou"
+                    },
+                    {
+                        "id": "145",
+                        "domain": "nmg",
+                        "name": "\u547c\u548c\u6d69\u7279",
+                        "pinyin": "huhehaote"
+                    },
+                    {
+                        "id": "4",
+                        "domain": "handan",
+                        "name": "\u90af\u90f8",
+                        "pinyin": "handan"
+                    },
+                    {
+                        "id": "96",
+                        "domain": "hegang",
+                        "name": "\u9e64\u5c97",
+                        "pinyin": "hegang"
+                    },
+                    {
+                        "id": "207",
+                        "domain": "hengyang",
+                        "name": "\u8861\u9633",
+                        "pinyin": "hengyang"
+                    },
+                    {
+                        "id": "30",
+                        "domain": "huzhou",
+                        "name": "\u6e56\u5dde",
+                        "pinyin": "huzhou"
+                    },
+                    {
+                        "id": "107",
+                        "domain": "hebi",
+                        "name": "\u9e64\u58c1",
+                        "pinyin": "hebi"
+                    },
+                    {
+                        "id": "234",
+                        "domain": "honghe",
+                        "name": "\u7ea2\u6cb3",
+                        "pinyin": "honghe"
+                    },
+                    {
+                        "id": "182",
+                        "domain": "hanzhong",
+                        "name": "\u6c49\u4e2d",
+                        "pinyin": "hanzhong"
+                    },
+                    {
+                        "id": "72",
+                        "domain": "huaian",
+                        "name": "\u6dee\u5b89",
+                        "pinyin": "huaian"
+                    },
+                    {
+                        "id": "23",
+                        "domain": "huizhou",
+                        "name": "\u60e0\u5dde",
+                        "pinyin": "huizhou"
+                    },
+                    {
+                        "id": "140",
+                        "domain": "hechi",
+                        "name": "\u6cb3\u6c60",
+                        "pinyin": "hechi"
+                    },
+                    {
+                        "id": "64",
+                        "domain": "huludao",
+                        "name": "\u846b\u82a6\u5c9b",
+                        "pinyin": "huludao"
+                    },
+                    {
+                        "id": "11",
+                        "domain": "hengshui",
+                        "name": "\u8861\u6c34",
+                        "pinyin": "hengshui"
+                    },
+                    {
+                        "id": "310",
+                        "domain": "huainan",
+                        "name": "\u6dee\u5357",
+                        "pinyin": "huainan"
+                    },
+                    {
+                        "id": "311",
+                        "domain": "huaibei",
+                        "name": "\u6dee\u5317",
+                        "pinyin": "huaibei"
+                    },
+                    {
+                        "id": "328",
+                        "domain": "huanggang",
+                        "name": "\u9ec4\u5188",
+                        "pinyin": "huanggang"
+                    },
+                    {
+                        "id": "319",
+                        "domain": "hezhou",
+                        "name": "\u8d3a\u5dde",
+                        "pinyin": "hezhou"
+                    },
+                    {
+                        "id": "336",
+                        "domain": "huaihua",
+                        "name": "\u6000\u5316",
+                        "pinyin": "huaihua"
+                    },
+                    {
+                        "id": "313",
+                        "domain": "huangshan",
+                        "name": "\u9ec4\u5c71",
+                        "pinyin": "huangshan"
+                    },
+                    {
+                        "id": "268",
+                        "domain": "heyuan",
+                        "name": "\u6cb3\u6e90",
+                        "pinyin": "heyuan"
+                    },
+                    {
+                        "id": "338",
+                        "domain": "heze",
+                        "name": "\u83cf\u6cfd",
+                        "pinyin": "heze"
+                    }
+                ]
+            },
+            {
+                "letter": "J",
+                "citys": [
+                    {
+                        "id": "113",
+                        "domain": "jn",
+                        "name": "\u6d4e\u5357",
+                        "pinyin": "jinan"
+                    },
+                    {
+                        "id": "85",
+                        "domain": "jilin",
+                        "name": "\u5409\u6797",
+                        "pinyin": "jilinshi"
+                    },
+                    {
+                        "id": "215",
+                        "domain": "jingdezhen",
+                        "name": "\u666f\u5fb7\u9547",
+                        "pinyin": "jingdezhen"
+                    },
+                    {
+                        "id": "29",
+                        "domain": "jiaxing",
+                        "name": "\u5609\u5174",
+                        "pinyin": "jiaxing"
+                    },
+                    {
+                        "id": "106",
+                        "domain": "jiaozuo",
+                        "name": "\u7126\u4f5c",
+                        "pinyin": "jiaozuo"
+                    },
+                    {
+                        "id": "217",
+                        "domain": "jiujiang",
+                        "name": "\u4e5d\u6c5f",
+                        "pinyin": "jiujiang"
+                    },
+                    {
+                        "id": "60",
+                        "domain": "jinzhou",
+                        "name": "\u9526\u5dde",
+                        "pinyin": "jinzhou"
+                    },
+                    {
+                        "id": "21",
+                        "domain": "jiangmen",
+                        "name": "\u6c5f\u95e8",
+                        "pinyin": "jiangmen"
+                    },
+                    {
+                        "id": "32",
+                        "domain": "jinhua",
+                        "name": "\u91d1\u534e",
+                        "pinyin": "jinhua"
+                    },
+                    {
+                        "id": "161",
+                        "domain": "jinzhong",
+                        "name": "\u664b\u4e2d",
+                        "pinyin": "jinzhong"
+                    },
+                    {
+                        "id": "100",
+                        "domain": "jiamusi",
+                        "name": "\u4f73\u6728\u65af",
+                        "pinyin": "jiamusi"
+                    },
+                    {
+                        "id": "221",
+                        "domain": "jian",
+                        "name": "\u5409\u5b89",
+                        "pinyin": "jian"
+                    },
+                    {
+                        "id": "112",
+                        "domain": "jiyuan",
+                        "name": "\u6d4e\u6e90",
+                        "pinyin": "jiyuan"
+                    },
+                    {
+                        "id": "304",
+                        "domain": "jining",
+                        "name": "\u6d4e\u5b81",
+                        "pinyin": "jining"
+                    },
+                    {
+                        "id": "272",
+                        "domain": "jieyang",
+                        "name": "\u63ed\u9633",
+                        "pinyin": "jieyang"
+                    }
+                ]
+            },
+            {
+                "letter": "K",
+                "citys": [
+                    {
+                        "id": "225",
+                        "domain": "km",
+                        "name": "\u6606\u660e",
+                        "pinyin": "kunming"
+                    },
+                    {
+                        "id": "293",
+                        "domain": "kaifeng",
+                        "name": "\u5f00\u5c01",
+                        "pinyin": "kaifeng"
+                    },
+                    {
+                        "id": "383",
+                        "domain": "kunshan",
+                        "name": "\u6606\u5c71",
+                        "pinyin": "kunshan"
+                    }
+                ]
+            },
+            {
+                "letter": "L",
+                "citys": [
+                    {
+                        "id": "104",
+                        "domain": "luoyang",
+                        "name": "\u6d1b\u9633",
+                        "pinyin": "luoyang"
+                    },
+                    {
+                        "id": "47",
+                        "domain": "luzhou",
+                        "name": "\u6cf8\u5dde",
+                        "pinyin": "luzhou"
+                    },
+                    {
+                        "id": "133",
+                        "domain": "liuzhou",
+                        "name": "\u67f3\u5dde",
+                        "pinyin": "liuzhou"
+                    },
+                    {
+                        "id": "87",
+                        "domain": "liaoyuan",
+                        "name": "\u8fbd\u6e90",
+                        "pinyin": "liaoyuan"
+                    },
+                    {
+                        "id": "71",
+                        "domain": "lianyungang",
+                        "name": "\u8fde\u4e91\u6e2f",
+                        "pinyin": "lianyungang"
+                    },
+                    {
+                        "id": "50",
+                        "domain": "leshan",
+                        "name": "\u4e50\u5c71",
+                        "pinyin": "leshan"
+                    },
+                    {
+                        "id": "62",
+                        "domain": "liaoyang",
+                        "name": "\u8fbd\u9633",
+                        "pinyin": "liaoyang"
+                    },
+                    {
+                        "id": "82",
+                        "domain": "longyan",
+                        "name": "\u9f99\u5ca9",
+                        "pinyin": "longyan"
+                    },
+                    {
+                        "id": "10",
+                        "domain": "langfang",
+                        "name": "\u5eca\u574a",
+                        "pinyin": "langfang"
+                    },
+                    {
+                        "id": "110",
+                        "domain": "luohe",
+                        "name": "\u6f2f\u6cb3",
+                        "pinyin": "luohe"
+                    },
+                    {
+                        "id": "121",
+                        "domain": "laiwu",
+                        "name": "\u83b1\u829c",
+                        "pinyin": "laiwu"
+                    },
+                    {
+                        "id": "132",
+                        "domain": "luan",
+                        "name": "\u516d\u5b89",
+                        "pinyin": "luan"
+                    },
+                    {
+                        "id": "141",
+                        "domain": "laibin",
+                        "name": "\u6765\u5bbe",
+                        "pinyin": "laibin"
+                    },
+                    {
+                        "id": "164",
+                        "domain": "linfen",
+                        "name": "\u4e34\u6c7e",
+                        "pinyin": "linfen"
+                    },
+                    {
+                        "id": "213",
+                        "domain": "loudi",
+                        "name": "\u5a04\u5e95",
+                        "pinyin": "loudi"
+                    },
+                    {
+                        "id": "230",
+                        "domain": "lijiang",
+                        "name": "\u4e3d\u6c5f",
+                        "pinyin": "lijiang"
+                    },
+                    {
+                        "id": "285",
+                        "domain": "lishui",
+                        "name": "\u4e3d\u6c34",
+                        "pinyin": "lishui"
+                    },
+                    {
+                        "id": "323",
+                        "domain": "lvliang",
+                        "name": "\u5415\u6881",
+                        "pinyin": "lvliang"
+                    },
+                    {
+                        "id": "232",
+                        "domain": "lincang",
+                        "name": "\u4e34\u6ca7",
+                        "pinyin": "lincang"
+                    },
+                    {
+                        "id": "307",
+                        "domain": "linyi",
+                        "name": "\u4e34\u6c82",
+                        "pinyin": "linyi"
+                    },
+                    {
+                        "id": "309",
+                        "domain": "liaocheng",
+                        "name": "\u804a\u57ce",
+                        "pinyin": "liaocheng"
+                    }
+                ]
+            },
+            {
+                "letter": "M",
+                "citys": [
+                    {
+                        "id": "126",
+                        "domain": "maanshan",
+                        "name": "\u9a6c\u978d\u5c71",
+                        "pinyin": "maanshan"
+                    },
+                    {
+                        "id": "49",
+                        "domain": "mianyang",
+                        "name": "\u7ef5\u9633",
+                        "pinyin": "mianyang"
+                    },
+                    {
+                        "id": "22",
+                        "domain": "maoming",
+                        "name": "\u8302\u540d",
+                        "pinyin": "maoming"
+                    },
+                    {
+                        "id": "302",
+                        "domain": "mudanjiang",
+                        "name": "\u7261\u4e39\u6c5f",
+                        "pinyin": "mudanjiang"
+                    },
+                    {
+                        "id": "266",
+                        "domain": "meizhou",
+                        "name": "\u6885\u5dde",
+                        "pinyin": "meizhou"
+                    },
+                    {
+                        "id": "279",
+                        "domain": "meishan",
+                        "name": "\u7709\u5c71",
+                        "pinyin": "meishan"
+                    }
+                ]
+            },
+            {
+                "letter": "N",
+                "citys": [
+                    {
+                        "id": "65",
+                        "domain": "nj",
+                        "name": "\u5357\u4eac",
+                        "pinyin": "nanjing"
+                    },
+                    {
+                        "id": "142",
+                        "domain": "nn",
+                        "name": "\u5357\u5b81",
+                        "pinyin": "nanning"
+                    },
+                    {
+                        "id": "214",
+                        "domain": "nc",
+                        "name": "\u5357\u660c",
+                        "pinyin": "nanchang"
+                    },
+                    {
+                        "id": "27",
+                        "domain": "nb",
+                        "name": "\u5b81\u6ce2",
+                        "pinyin": "ningbo"
+                    },
+                    {
+                        "id": "51",
+                        "domain": "nanchong",
+                        "name": "\u5357\u5145",
+                        "pinyin": "nanchong"
+                    },
+                    {
+                        "id": "70",
+                        "domain": "nantong",
+                        "name": "\u5357\u901a",
+                        "pinyin": "nantong"
+                    },
+                    {
+                        "id": "81",
+                        "domain": "nanping",
+                        "name": "\u5357\u5e73",
+                        "pinyin": "nanping"
+                    },
+                    {
+                        "id": "111",
+                        "domain": "nanyang",
+                        "name": "\u5357\u9633",
+                        "pinyin": "nanyang"
+                    },
+                    {
+                        "id": "83",
+                        "domain": "ningde",
+                        "name": "\u5b81\u5fb7",
+                        "pinyin": "ningde"
+                    },
+                    {
+                        "id": "277",
+                        "domain": "neijiang",
+                        "name": "\u5185\u6c5f",
+                        "pinyin": "neijiang"
+                    }
+                ]
+            },
+            {
+                "letter": "P",
+                "citys": [
+                    {
+                        "id": "77",
+                        "domain": "putian",
+                        "name": "\u8386\u7530",
+                        "pinyin": "putian"
+                    },
+                    {
+                        "id": "105",
+                        "domain": "pingdingshan",
+                        "name": "\u5e73\u9876\u5c71",
+                        "pinyin": "pingdingshan"
+                    },
+                    {
+                        "id": "216",
+                        "domain": "pingxiang",
+                        "name": "\u840d\u4e61",
+                        "pinyin": "pingxiang"
+                    },
+                    {
+                        "id": "63",
+                        "domain": "panjin",
+                        "name": "\u76d8\u9526",
+                        "pinyin": "panjin"
+                    },
+                    {
+                        "id": "231",
+                        "domain": "puer",
+                        "name": "\u666e\u6d31",
+                        "pinyin": "puer"
+                    },
+                    {
+                        "id": "294",
+                        "domain": "puyang",
+                        "name": "\u6fee\u9633",
+                        "pinyin": "puyang"
+                    },
+                    {
+                        "id": "381",
+                        "domain": "pixian",
+                        "name": "\u90eb\u53bf",
+                        "pinyin": "pixian"
+                    }
+                ]
+            },
+            {
+                "letter": "Q",
+                "citys": [
+                    {
+                        "id": "94",
+                        "domain": "qiqihaer",
+                        "name": "\u9f50\u9f50\u54c8\u5c14",
+                        "pinyin": "qiqihaer"
+                    },
+                    {
+                        "id": "114",
+                        "domain": "qd",
+                        "name": "\u9752\u5c9b",
+                        "pinyin": "qingdao"
+                    },
+                    {
+                        "id": "226",
+                        "domain": "qujing",
+                        "name": "\u66f2\u9756",
+                        "pinyin": "qujing"
+                    },
+                    {
+                        "id": "377",
+                        "domain": "qh",
+                        "name": "\u743c\u6d77",
+                        "pinyin": "qionghai"
+                    },
+                    {
+                        "id": "79",
+                        "domain": "quanzhou",
+                        "name": "\u6cc9\u5dde",
+                        "pinyin": "quanzhou"
+                    },
+                    {
+                        "id": "136",
+                        "domain": "qinzhou",
+                        "name": "\u94a6\u5dde",
+                        "pinyin": "qinzhou"
+                    },
+                    {
+                        "id": "33",
+                        "domain": "quzhou",
+                        "name": "\u8862\u5dde",
+                        "pinyin": "quzhou"
+                    },
+                    {
+                        "id": "3",
+                        "domain": "qinhuangdao",
+                        "name": "\u79e6\u7687\u5c9b",
+                        "pinyin": "qinhuangdao"
+                    },
+                    {
+                        "id": "270",
+                        "domain": "qingyuan",
+                        "name": "\u6e05\u8fdc",
+                        "pinyin": "qingyuan"
+                    }
+                ]
+            },
+            {
+                "letter": "R",
+                "citys": [
+                    {
+                        "id": "306",
+                        "domain": "rizhao",
+                        "name": "\u65e5\u7167",
+                        "pinyin": "rizhao"
+                    }
+                ]
+            },
+            {
+                "letter": "S",
+                "citys": [
+                    {
+                        "id": "1",
+                        "domain": "sjz",
+                        "name": "\u77f3\u5bb6\u5e84",
+                        "pinyin": "shijiazhuang"
+                    },
+                    {
+                        "id": "13",
+                        "domain": "sh",
+                        "name": "\u4e0a\u6d77",
+                        "pinyin": "shanghai"
+                    },
+                    {
+                        "id": "55",
+                        "domain": "sy",
+                        "name": "\u6c88\u9633",
+                        "pinyin": "shenyang"
+                    },
+                    {
+                        "id": "17",
+                        "domain": "sz",
+                        "name": "\u6df1\u5733",
+                        "pinyin": "shenzhen"
+                    },
+                    {
+                        "id": "67",
+                        "domain": "su",
+                        "name": "\u82cf\u5dde",
+                        "pinyin": "suzhou"
+                    },
+                    {
+                        "id": "144",
+                        "domain": "sanya",
+                        "name": "\u4e09\u4e9a",
+                        "pinyin": "sanya"
+                    },
+                    {
+                        "id": "86",
+                        "domain": "siping",
+                        "name": "\u56db\u5e73",
+                        "pinyin": "siping"
+                    },
+                    {
+                        "id": "78",
+                        "domain": "sanming",
+                        "name": "\u4e09\u660e",
+                        "pinyin": "sanming"
+                    },
+                    {
+                        "id": "19",
+                        "domain": "shantou",
+                        "name": "\u6c55\u5934",
+                        "pinyin": "shantou"
+                    },
+                    {
+                        "id": "208",
+                        "domain": "shaoyang",
+                        "name": "\u90b5\u9633",
+                        "pinyin": "shaoyang"
+                    },
+                    {
+                        "id": "31",
+                        "domain": "shaoxing",
+                        "name": "\u7ecd\u5174",
+                        "pinyin": "shaoxing"
+                    },
+                    {
+                        "id": "160",
+                        "domain": "shuozhou",
+                        "name": "\u6714\u5dde",
+                        "pinyin": "shuozhou"
+                    },
+                    {
+                        "id": "90",
+                        "domain": "songyuan",
+                        "name": "\u677e\u539f",
+                        "pinyin": "songyuan"
+                    },
+                    {
+                        "id": "130",
+                        "domain": "ahsuzhou",
+                        "name": "\u5bbf\u5dde",
+                        "pinyin": "suzhouah"
+                    },
+                    {
+                        "id": "224",
+                        "domain": "shangrao",
+                        "name": "\u4e0a\u9976",
+                        "pinyin": "shangrao"
+                    },
+                    {
+                        "id": "185",
+                        "domain": "shangluo",
+                        "name": "\u5546\u6d1b",
+                        "pinyin": "shangluo"
+                    },
+                    {
+                        "id": "263",
+                        "domain": "shaoguan",
+                        "name": "\u97f6\u5173",
+                        "pinyin": "shaoguan"
+                    },
+                    {
+                        "id": "276",
+                        "domain": "suining",
+                        "name": "\u9042\u5b81",
+                        "pinyin": "suining"
+                    },
+                    {
+                        "id": "292",
+                        "domain": "suqian",
+                        "name": "\u5bbf\u8fc1",
+                        "pinyin": "suqian"
+                    },
+                    {
+                        "id": "296",
+                        "domain": "sanmenxia",
+                        "name": "\u4e09\u95e8\u5ce1",
+                        "pinyin": "sanmenxia"
+                    },
+                    {
+                        "id": "267",
+                        "domain": "shanwei",
+                        "name": "\u6c55\u5c3e",
+                        "pinyin": "shanwei"
+                    },
+                    {
+                        "id": "382",
+                        "domain": "shuangliu",
+                        "name": "\u53cc\u6d41",
+                        "pinyin": "shuangliu"
+                    }
+                ]
+            },
+            {
+                "letter": "T",
+                "citys": [
+                    {
+                        "id": "14",
+                        "domain": "tj",
+                        "name": "\u5929\u6d25",
+                        "pinyin": "tianjin"
+                    },
+                    {
+                        "id": "155",
+                        "domain": "ty",
+                        "name": "\u592a\u539f",
+                        "pinyin": "taiyuan"
+                    },
+                    {
+                        "id": "2",
+                        "domain": "tangshan",
+                        "name": "\u5510\u5c71",
+                        "pinyin": "tangshan"
+                    },
+                    {
+                        "id": "177",
+                        "domain": "tongchuan",
+                        "name": "\u94dc\u5ddd",
+                        "pinyin": "tongchuan"
+                    },
+                    {
+                        "id": "88",
+                        "domain": "tonghua",
+                        "name": "\u901a\u5316",
+                        "pinyin": "tonghua"
+                    },
+                    {
+                        "id": "35",
+                        "domain": "zjtaizhou",
+                        "name": "\u53f0\u5dde",
+                        "pinyin": "zjtaizhou"
+                    },
+                    {
+                        "id": "291",
+                        "domain": "jstaizhou",
+                        "name": "\u6cf0\u5dde",
+                        "pinyin": "jstaizhou"
+                    },
+                    {
+                        "id": "305",
+                        "domain": "taian",
+                        "name": "\u6cf0\u5b89",
+                        "pinyin": "taian"
+                    },
+                    {
+                        "id": "288",
+                        "domain": "tieling",
+                        "name": "\u94c1\u5cad",
+                        "pinyin": "tieling"
+                    },
+                    {
+                        "id": "312",
+                        "domain": "tongling",
+                        "name": "\u94dc\u9675",
+                        "pinyin": "tongling"
+                    },
+                    {
+                        "id": "332",
+                        "domain": "tianmen",
+                        "name": "\u5929\u95e8",
+                        "pinyin": "tianmen"
+                    }
+                ]
+            },
+            {
+                "letter": "W",
+                "citys": [
+                    {
+                        "id": "194",
+                        "domain": "wh",
+                        "name": "\u6b66\u6c49",
+                        "pinyin": "wuhan"
+                    },
+                    {
+                        "id": "124",
+                        "domain": "wuhu",
+                        "name": "\u829c\u6e56",
+                        "pinyin": "wuhu"
+                    },
+                    {
+                        "id": "28",
+                        "domain": "wenzhou",
+                        "name": "\u6e29\u5dde",
+                        "pinyin": "wenzhou"
+                    },
+                    {
+                        "id": "66",
+                        "domain": "wx",
+                        "name": "\u65e0\u9521",
+                        "pinyin": "wuxi"
+                    },
+                    {
+                        "id": "120",
+                        "domain": "wei",
+                        "name": "\u5a01\u6d77",
+                        "pinyin": "weihai"
+                    },
+                    {
+                        "id": "135",
+                        "domain": "wuzhou",
+                        "name": "\u68a7\u5dde",
+                        "pinyin": "wuzhou"
+                    },
+                    {
+                        "id": "180",
+                        "domain": "weinan",
+                        "name": "\u6e2d\u5357",
+                        "pinyin": "weinan"
+                    },
+                    {
+                        "id": "119",
+                        "domain": "weifang",
+                        "name": "\u6f4d\u574a",
+                        "pinyin": "weifang"
+                    },
+                    {
+                        "id": "233",
+                        "domain": "wenshan",
+                        "name": "\u6587\u5c71",
+                        "pinyin": "wenshan"
+                    },
+                    {
+                        "id": "353",
+                        "domain": "wuzhishan",
+                        "name": "\u4e94\u6307\u5c71",
+                        "pinyin": "wuzhishan"
+                    }
+                ]
+            },
+            {
+                "letter": "X",
+                "citys": [
+                    {
+                        "id": "176",
+                        "domain": "xa",
+                        "name": "\u897f\u5b89",
+                        "pinyin": "xian"
+                    },
+                    {
+                        "id": "76",
+                        "domain": "xm",
+                        "name": "\u53a6\u95e8",
+                        "pinyin": "xiamen"
+                    },
+                    {
+                        "id": "196",
+                        "domain": "xiangyang",
+                        "name": "\u8944\u9633",
+                        "pinyin": "xiangyang"
+                    },
+                    {
+                        "id": "206",
+                        "domain": "xiangtan",
+                        "name": "\u6e58\u6f6d",
+                        "pinyin": "xiangtan"
+                    },
+                    {
+                        "id": "5",
+                        "domain": "xingtai",
+                        "name": "\u90a2\u53f0",
+                        "pinyin": "xingtai"
+                    },
+                    {
+                        "id": "68",
+                        "domain": "xuzhou",
+                        "name": "\u5f90\u5dde",
+                        "pinyin": "xuzhou"
+                    },
+                    {
+                        "id": "179",
+                        "domain": "xianyang",
+                        "name": "\u54b8\u9633",
+                        "pinyin": "xianyang"
+                    },
+                    {
+                        "id": "218",
+                        "domain": "xinyu",
+                        "name": "\u65b0\u4f59",
+                        "pinyin": "xinyu"
+                    },
+                    {
+                        "id": "108",
+                        "domain": "xinxiang",
+                        "name": "\u65b0\u4e61",
+                        "pinyin": "xinxiang"
+                    },
+                    {
+                        "id": "235",
+                        "domain": "xishuangbanna",
+                        "name": "\u897f\u53cc\u7248\u7eb3",
+                        "pinyin": "xishuangbanna"
+                    },
+                    {
+                        "id": "163",
+                        "domain": "xinzhou",
+                        "name": "\u5ffb\u5dde",
+                        "pinyin": "xinzhou"
+                    },
+                    {
+                        "id": "202",
+                        "domain": "xiantao",
+                        "name": "\u4ed9\u6843",
+                        "pinyin": "xiantao"
+                    },
+                    {
+                        "id": "327",
+                        "domain": "xiaogan",
+                        "name": "\u5b5d\u611f",
+                        "pinyin": "xiaogan"
+                    },
+                    {
+                        "id": "295",
+                        "domain": "xuchang",
+                        "name": "\u8bb8\u660c",
+                        "pinyin": "xuchang"
+                    },
+                    {
+                        "id": "337",
+                        "domain": "xiangxi",
+                        "name": "\u6e58\u897f",
+                        "pinyin": "xiangxi"
+                    },
+                    {
+                        "id": "298",
+                        "domain": "xinyang",
+                        "name": "\u4fe1\u9633",
+                        "pinyin": "xinyang"
+                    },
+                    {
+                        "id": "316",
+                        "domain": "xuancheng",
+                        "name": "\u5ba3\u57ce",
+                        "pinyin": "xuancheng"
+                    }
+                ]
+            },
+            {
+                "letter": "Y",
+                "citys": [
+                    {
+                        "id": "227",
+                        "domain": "yuxi",
+                        "name": "\u7389\u6eaa",
+                        "pinyin": "yuxi"
+                    },
+                    {
+                        "id": "181",
+                        "domain": "yanan",
+                        "name": "\u5ef6\u5b89",
+                        "pinyin": "yanan"
+                    },
+                    {
+                        "id": "199",
+                        "domain": "yichang",
+                        "name": "\u5b9c\u660c",
+                        "pinyin": "yichang"
+                    },
+                    {
+                        "id": "209",
+                        "domain": "yueyang",
+                        "name": "\u5cb3\u9633",
+                        "pinyin": "yueyang"
+                    },
+                    {
+                        "id": "219",
+                        "domain": "yingtan",
+                        "name": "\u9e70\u6f6d",
+                        "pinyin": "yingtan"
+                    },
+                    {
+                        "id": "61",
+                        "domain": "yingkou",
+                        "name": "\u8425\u53e3",
+                        "pinyin": "yingkou"
+                    },
+                    {
+                        "id": "118",
+                        "domain": "yantai",
+                        "name": "\u70df\u53f0",
+                        "pinyin": "yantai"
+                    },
+                    {
+                        "id": "138",
+                        "domain": "gxyulin",
+                        "name": "\u7389\u6797",
+                        "pinyin": "yulin"
+                    },
+                    {
+                        "id": "162",
+                        "domain": "yuncheng",
+                        "name": "\u8fd0\u57ce",
+                        "pinyin": "yuncheng"
+                    },
+                    {
+                        "id": "183",
+                        "domain": "sxyulin",
+                        "name": "\u6986\u6797",
+                        "pinyin": "sxyulin"
+                    },
+                    {
+                        "id": "73",
+                        "domain": "yancheng",
+                        "name": "\u76d0\u57ce",
+                        "pinyin": "yancheng"
+                    },
+                    {
+                        "id": "92",
+                        "domain": "yanbian",
+                        "name": "\u5ef6\u8fb9",
+                        "pinyin": "yanbian"
+                    },
+                    {
+                        "id": "212",
+                        "domain": "yongzhou",
+                        "name": "\u6c38\u5dde",
+                        "pinyin": "yongzhou"
+                    },
+                    {
+                        "id": "52",
+                        "domain": "yibin",
+                        "name": "\u5b9c\u5bbe",
+                        "pinyin": "yibin"
+                    },
+                    {
+                        "id": "74",
+                        "domain": "yangzhou",
+                        "name": "\u626c\u5dde",
+                        "pinyin": "yangzhou"
+                    },
+                    {
+                        "id": "222",
+                        "domain": "jxyichun",
+                        "name": "\u5b9c\u6625",
+                        "pinyin": "jxyichun"
+                    },
+                    {
+                        "id": "335",
+                        "domain": "yiyang",
+                        "name": "\u76ca\u9633",
+                        "pinyin": "yiyang"
+                    },
+                    {
+                        "id": "386",
+                        "domain": "yiwu",
+                        "name": "\u4e49\u4e4c",
+                        "pinyin": "yiwu"
+                    },
+                    {
+                        "id": "269",
+                        "domain": "yangjiang",
+                        "name": "\u9633\u6c5f",
+                        "pinyin": "yangjiang"
+                    },
+                    {
+                        "id": "280",
+                        "domain": "yaan",
+                        "name": "\u96c5\u5b89",
+                        "pinyin": "yaan"
+                    },
+                    {
+                        "id": "273",
+                        "domain": "yunfu",
+                        "name": "\u4e91\u6d6e",
+                        "pinyin": "yunfu"
+                    }
+                ]
+            },
+            {
+                "letter": "Z",
+                "citys": [
+                    {
+                        "id": "103",
+                        "domain": "zz",
+                        "name": "\u90d1\u5dde",
+                        "pinyin": "zhengzhou"
+                    },
+                    {
+                        "id": "46",
+                        "domain": "zigong",
+                        "name": "\u81ea\u8d21",
+                        "pinyin": "zigong"
+                    },
+                    {
+                        "id": "205",
+                        "domain": "zhuzhou",
+                        "name": "\u682a\u6d32",
+                        "pinyin": "zhuzhou"
+                    },
+                    {
+                        "id": "18",
+                        "domain": "zhuhai",
+                        "name": "\u73e0\u6d77",
+                        "pinyin": "zhuhai"
+                    },
+                    {
+                        "id": "115",
+                        "domain": "zibo",
+                        "name": "\u6dc4\u535a",
+                        "pinyin": "zibo"
+                    },
+                    {
+                        "id": "229",
+                        "domain": "zhaotong",
+                        "name": "\u662d\u901a",
+                        "pinyin": "zhaotong"
+                    },
+                    {
+                        "id": "80",
+                        "domain": "zhangzhou",
+                        "name": "\u6f33\u5dde",
+                        "pinyin": "zhangzhou"
+                    },
+                    {
+                        "id": "25",
+                        "domain": "zhongshan",
+                        "name": "\u4e2d\u5c71",
+                        "pinyin": "zhongshan"
+                    },
+                    {
+                        "id": "34",
+                        "domain": "zhoushan",
+                        "name": "\u821f\u5c71",
+                        "pinyin": "zhoushan"
+                    },
+                    {
+                        "id": "290",
+                        "domain": "zhenjiang",
+                        "name": "\u9547\u6c5f",
+                        "pinyin": "zhenjiang"
+                    },
+                    {
+                        "id": "334",
+                        "domain": "zhangjiajie",
+                        "name": "\u5f20\u5bb6\u754c",
+                        "pinyin": "zhangjiajie"
+                    },
+                    {
+                        "id": "265",
+                        "domain": "zhaoqing",
+                        "name": "\u8087\u5e86",
+                        "pinyin": "zhaoqing"
+                    },
+                    {
+                        "id": "299",
+                        "domain": "zhoukou",
+                        "name": "\u5468\u53e3",
+                        "pinyin": "zhoukou"
+                    },
+                    {
+                        "id": "300",
+                        "domain": "zhumadian",
+                        "name": "\u9a7b\u9a6c\u5e97",
+                        "pinyin": "zhumadian"
+                    },
+                    {
+                        "id": "282",
+                        "domain": "ziyang",
+                        "name": "\u8d44\u9633",
+                        "pinyin": "ziyang"
+                    }
+                ]
+            }
+        ]
+    },
+    "message": "succeed"
+}
