@@ -4,13 +4,13 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, '..', dir)
 }
 
 
 
-module.exports = {
+const originalConfig = {
   context: path.resolve(__dirname, '../'),
   entry: {
     app: './src/main.js'
@@ -18,23 +18,21 @@ module.exports = {
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
-    publicPath: process.env.NODE_ENV === 'production'
-      ? config.build.assetsPublicPath
-      : config.dev.assetsPublicPath
+    publicPath: process.env.NODE_ENV === 'production' ?
+      config.build.assetsPublicPath :
+      config.dev.assetsPublicPath
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
-      'comp':resolve('src/components'),
-      'css':resolve('src/static/css'),
-      '#':resolve('src/views'),
+      '#': resolve('src/views'),
+      'comp': resolve('src/components')
     }
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.vue$/,
         loader: 'vue-loader',
         options: vueLoaderConfig
@@ -83,3 +81,19 @@ module.exports = {
     child_process: 'empty'
   }
 }
+// const vuxLoader = require('vux-loader')
+// const webpackConfig = originalConfig // 原来的 module.exports 代码赋值给变量 webpackConfig
+
+// module.exports = vuxLoader.merge(webpackConfig, {
+//   plugins: ['vux-ui']
+// })
+const webpackConfig = originalConfig // 原来的 webpack.base.js 配置
+
+const vuxLoader = require('vux-loader')
+
+module.exports = vuxLoader.merge(webpackConfig, {
+  options: {},
+  plugins: [{
+    name: 'vux-ui'
+  }]
+})

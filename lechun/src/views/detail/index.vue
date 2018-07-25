@@ -103,6 +103,7 @@
         }
     }
 </script>
+
 <style scoped>
 footer{
     position: fixed;

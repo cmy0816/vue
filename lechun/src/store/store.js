@@ -11,38 +11,40 @@ function filterCar (data,isLogin){
             })
         }
     };
-    if (isLogin) {
-        fetch('/api/car?mobile=' + isLogin).then(res => {
+    if (isLogin) {//如果是登录的状态下
+        fetch('/api/car?mobile=' + isLogin).then(res => {//把数据库的数据同步到本地
             res.json().then(data => {
                 if (data.code == 1) {
-                    let oldCar = data.data;
+                    let oldCar = JSON.parse(data.data)||[];
+                    let key = [];
+                    for(let i=0;i<car.length;i++){
+                        if (key.indexOf(car[i].id) == -1) {
+                            key.push(car[i].id);
+                        }
+                    };
                     for ( let i = 0 ; i < oldCar.length; i++ ){
                         for ( let j = 0 ; j < car.length; j++){
-                            if(oldCar[i].id === car[j].id){
+                            if(oldCar[i].id == car[j].id){
                                 if (oldCar[i].limitBuyCount * 1 > car[j].limitBuyCount * 1){
                                     car[j].limitBuyCount = oldCar[i].limitBuyCount;
                                 }
-                            }else{
+                            }else if(key.indexOf(oldCar[i].id) == -1){
                                 car.push(oldCar[i]);
                             }
                         }
-                    }
-                }
+                    };
+                    fetch('/api/setCar', {//把本地的数据同步到数据库
+                      method: 'POST',
+                      headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                      },
+                      body: 'mobile=' + isLogin + '&car=' + JSON.stringify(car),
+                    });
+                };
             })
-        })
+        });
     }
     window.localStorage.setItem('car', JSON.stringify({ main: car }));
-    fetch('/api/setCar',{
-        method: 'POST',
-        headers: {
-         	'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body: 'mobile=' + isLogin +'&car=' + JSON.stringify(car),
-    }).then(res => {
-        res.json().then(data => {
-            console.log(data);
-        })
-    })
 }
 const store = new Vuex.Store({
     state:{

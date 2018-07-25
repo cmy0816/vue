@@ -32,6 +32,14 @@ const router = new Router({
       path:'/mine/:id',
       name:'mine',
       component: () => import('#/user/views/mine/index.vue')
+    },{
+      path:'/topay/:id',
+      name:'topay',
+      component:() => import('#/topay/index.vue')
+    },{
+      path:'/address',
+      name:'address',
+      component: () => import('#/add_address')
     }
   ]
 });

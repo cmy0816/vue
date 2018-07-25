@@ -14,7 +14,8 @@
             <div class="footer">
                 <span><a>{{num}}</a>盒商品</span><br/>
                 <span>合计<a>￥{{pic/100}}</a></span>
-                <button>还差90.00元起送</button>
+                <button v-if='9000>pic' disabled>还差{{(9000-pic)/100}}元起送</button>
+                <router-link v-else :to='{path:`/topay/${$store.state.isLogin}`}' tag='button'>结算</router-link>
             </div>
         </div>
     </div>
