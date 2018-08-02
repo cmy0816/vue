@@ -15,7 +15,6 @@
 <script>
   export default {
     data() {
-      
       return {
           user: '',
           pwd: ''
@@ -23,7 +22,22 @@
     },
     methods: {
       submitForm() {
-        
+        fetch('/api/signIn',{
+            method:'POST',
+            credentials:'include',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body:'user='+this.user+'&pwd='+this.pwd,
+        }).then(res=>{
+            res.json().then(data=>{
+                if(data.code){
+                    this.$router.push({
+                        path:this.$route.query.successUrl
+                    })
+                }
+            })
+        })
       },
       resetForm() {
         this.user='';
