@@ -19,7 +19,6 @@ const signIn = async (req,res,next)=>{
 }
 const allData = async (req,res,next) => {
     const {page,pageSize} = req.query;
-    console.log(page, pageSize);
     const data = await User.getData({
         page, pageSize
     });
@@ -28,7 +27,16 @@ const allData = async (req,res,next) => {
         data
     })
 }
+const setState = async (req,res,next) => {
+    const {id,state} = req.query;
+    const data = await User.setState({id,state});
+    res.json({
+        code:1,
+        data
+    })
+}
 module.exports = {
     signIn,
-    allData
+    allData,
+    setState
 }

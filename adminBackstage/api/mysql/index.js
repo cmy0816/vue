@@ -31,6 +31,17 @@ const getData = ({
         })
     });
 }
+const setState = ({id,state})=>{
+    const sql = 'updata data set state =? where id =?';
+    return new Promise((reslove,reject)=>{
+        cont.query(sql,[state,id],(err,res)=>{
+            if(err){
+                reject();
+            }
+            reslove(true)
+        })
+    })
+}
 module.exports = {
-    signIn,getData
+    signIn,getData,setState
 }

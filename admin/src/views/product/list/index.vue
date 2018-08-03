@@ -26,9 +26,9 @@
       </template>
     </el-table-column>
     <el-table-column
-      prop="details"
-      label="描述"
-      width="350">
+      prop="stock"
+      label="库存"
+      width="100">
     </el-table-column>
     <el-table-column
       prop="proSummary"
@@ -53,10 +53,14 @@
     <el-table-column
       fixed="right"
       label="操作"
-      width="100">
-      <template slot-scope="scope">
-        <el-button @click="handleClick(scope.row)" type="text" size="small">查看</el-button>
+      width="100"
+      class='center'
+      >
+      <template slot-scope="scope" >
+        <el-button  type="text" size="small">查看</el-button>
         <el-button type="text" size="small">编辑</el-button>
+        <el-button type="text" size="small" @click="handleClick(scope.row,scope.$index)">{{(scope.row.state == 1)?'上架':'下架'}}</el-button>
+        <el-button type="text" size="small">删除</el-button>
       </template>
     </el-table-column>
   </el-table>
@@ -73,11 +77,18 @@
 <script>
   export default {
     methods: {
-      handleClick(row) {
-        console.log(row);
+      handleClick(row,index) {
+        let data = this.tableData;
+        data[index].state = data[index].state == 1?'0':'1';
+        this.tableData = [...data];
+        fetch('/api/setState?id='+row.id+'&state='+data[index].state).then(res=>{
+          res.json().then(data => {
+            console.log(data);
+          })
+        })
       },
       changeTable(e){
-        fetch('/api/allData?page='+(e.target.innerText-1)*3+'&pageSize='+3).then(res=>{
+        fetch('/api/allData?page='+(e.target.innerText-1)*this.num+'&pageSize='+this.num).then(res=>{
             res.json().then(data => {
                 this.tableData=data.data.data;
                 this.length = data.data.length;
@@ -94,7 +105,7 @@
       }
     },
     mounted() {
-        fetch('/api/allData?page=0&pageSize=3').then(res=>{
+        fetch('/api/allData?page=0&pageSize='+this.num).then(res=>{
             res.json().then(data => {
                 this.tableData=data.data.data;
                 this.length = data.data.length;
