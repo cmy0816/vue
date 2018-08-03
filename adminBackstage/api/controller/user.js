@@ -17,6 +17,18 @@ const signIn = async (req,res,next)=>{
     })
     }
 }
+const allData = async (req,res,next) => {
+    const {page,pageSize} = req.query;
+    console.log(page, pageSize);
+    const data = await User.getData({
+        page, pageSize
+    });
+    res.json({
+        code:1,
+        data
+    })
+}
 module.exports = {
-    signIn
+    signIn,
+    allData
 }

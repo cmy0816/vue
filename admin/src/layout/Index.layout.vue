@@ -1,62 +1,11 @@
 <template>
 <div class="wrap">
-
-
   <el-aside width="200px" style="background-color: rgb(0,21,42)">
-    <el-menu :default-openeds="['1', '3']">
-      <div class="logo el-submenu__title">
-        BigNoNo
-      </div>
-      <el-submenu index="1">
-        <template slot="title"><i class="el-icon-message"></i>导航一</template>
-        <el-menu-item-group>
-          <template slot="title">分组一</template>
-          <el-menu-item index="1-1">选项1</el-menu-item>
-          <el-menu-item index="1-2">选项2</el-menu-item>
-        </el-menu-item-group>
-        <el-menu-item-group title="分组2">
-          <el-menu-item index="1-3">选项3</el-menu-item>
-        </el-menu-item-group>
-        <el-submenu index="1-4">
-          <template slot="title">选项4</template>
-          <el-menu-item index="1-4-1">选项4-1</el-menu-item>
-        </el-submenu>
-      </el-submenu>
-      <el-submenu index="2">
-        <template slot="title"><i class="el-icon-menu"></i>导航二</template>
-        <el-menu-item-group>
-          <template slot="title">分组一</template>
-          <el-menu-item index="2-1">选项1</el-menu-item>
-          <el-menu-item index="2-2">选项2</el-menu-item>
-        </el-menu-item-group>
-        <el-menu-item-group title="分组2">
-          <el-menu-item index="2-3">选项3</el-menu-item>
-        </el-menu-item-group>
-        <el-submenu index="2-4">
-          <template slot="title">选项4</template>
-          <el-menu-item index="2-4-1">选项4-1</el-menu-item>
-        </el-submenu>
-      </el-submenu>
-      <el-submenu index="3">
-        <template slot="title"><i class="el-icon-setting"></i>导航三</template>
-        <el-menu-item-group>
-          <template slot="title">分组一</template>
-          <el-menu-item index="3-1">选项1</el-menu-item>
-          <el-menu-item index="3-2">选项2</el-menu-item>
-        </el-menu-item-group>
-        <el-menu-item-group title="分组2">
-          <el-menu-item index="3-3">选项3</el-menu-item>
-        </el-menu-item-group>
-        <el-submenu index="3-4">
-          <template slot="title">选项4</template>
-          <el-menu-item index="3-4-1">选项4-1</el-menu-item>
-        </el-submenu>
-      </el-submenu>
-    </el-menu>
+      <Menu/>
   </el-aside>
-  
   <el-container>
     <el-header style="text-align: right; font-size: 12px">
+
       <el-dropdown>
         <i class="el-icon-setting" style="margin-right: 15px"></i>
         <el-dropdown-menu slot="dropdown">
@@ -65,9 +14,11 @@
           <el-dropdown-item>删除</el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
-      <span>程小梦</span>
+      <span>{{$store.state.isLogin&&$store.state.isLogin.user}}</span>
+      <img :src="$store.state.isLogin&&$store.state.isLogin.src" alt=""/>
     </el-header>
     <el-main>
+      <Breadcrumb/>
       <router-view></router-view>
     </el-main>
   </el-container>
@@ -75,7 +26,6 @@
 </template>
 <style>
 .logo{
-  background-color:rgb(1,39,79);
   text-align: center;
 }
   .el-header {
@@ -84,7 +34,7 @@
     line-height: 60px;
   }
   .el-menu{
-    background-color:rgb(0,21,42);
+    background-color:#fff;
   }
   .el-menu-item:focus, .el-menu-item:hover,.el-submenu__title:hover{
     background-color:rgb(24,144,254);
@@ -120,19 +70,18 @@
   .el-main{
     margin-top:60px;
   }
+  img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin-top:15px;
+  }
 </style>
 
 <script>
-  export default {
-    data() {
-      const item = {
-        date: '2016-05-02',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1518 弄'
-      };
-      return {
-        tableData: Array(20).fill(item)
-      }
-    }
-  };
+import Breadcrumb from '../components/breadcrumb'
+import Menu from '../components/menu.vue';
+export default {
+  components:{Menu,Breadcrumb},
+}
 </script>

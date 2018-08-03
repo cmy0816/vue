@@ -23,6 +23,8 @@
     methods: {
       submitForm() {
         fetch('/api/signIn',{
+
+
             method:'POST',
             credentials:'include',
             headers: {
@@ -32,6 +34,9 @@
         }).then(res=>{
             res.json().then(data=>{
                 if(data.code){
+                    console.log(data);
+                    this.$store.commit('IS_LOGIN',data.msg[0]);
+                    window.localStorage.setItem('user',JSON.stringify(data.msg[0]))
                     this.$router.push({
                         path:this.$route.query.successUrl
                     })
