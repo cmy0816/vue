@@ -4,21 +4,22 @@
       <Menu/>
   </el-aside>
   <el-container>
-    <el-header style="text-align: right; font-size: 12px">
-
-      <el-dropdown>
-        <i class="el-icon-setting" style="margin-right: 15px"></i>
-        <el-dropdown-menu slot="dropdown">
-          <el-dropdown-item>查看</el-dropdown-item>
-          <el-dropdown-item>新增</el-dropdown-item>
-          <el-dropdown-item>删除</el-dropdown-item>
-        </el-dropdown-menu>
-      </el-dropdown>
-      <span>{{$store.state.isLogin&&$store.state.isLogin.user}}</span>
-      <img :src="$store.state.isLogin&&$store.state.isLogin.src" alt=""/>
-    </el-header>
+    <div class="header">
+        <el-header style="text-align: right; font-size: 12px">
+          <el-dropdown>
+            <i class="el-icon-setting" style="margin-right: 15px"></i>
+            <el-dropdown-menu slot="dropdown">
+              <el-dropdown-item>查看</el-dropdown-item>
+              <el-dropdown-item>新增</el-dropdown-item>
+              <el-dropdown-item @click.native='logOff'>退出登录</el-dropdown-item>
+            </el-dropdown-menu>
+          </el-dropdown>
+          <span>{{$store.state.isLogin&&$store.state.isLogin.user}}</span>
+          <img :src="$store.state.isLogin&&$store.state.isLogin.src" alt=""/>
+        </el-header>
+        <Breadcrumb/>
+    </div>
     <el-main>
-      <Breadcrumb/>
       <router-view></router-view>
     </el-main>
   </el-container>
@@ -29,7 +30,6 @@
   text-align: center;
 }
   .el-header {
-    background-color: #B3C0D1;
     color: #333;
     line-height: 60px;
   }
@@ -58,7 +58,7 @@
     padding-left:200px;
     box-sizing: content-box;
   }
-  .el-header{
+  .header{
     position: fixed;
     top:0;
     left:0;
@@ -69,6 +69,7 @@
   }
   .el-main{
     margin-top:60px;
+    margin-left:200px;
   }
   img{
     width:30px;
@@ -76,12 +77,22 @@
     border-radius: 50%;
     margin-top:15px;
   }
+  .el-breadcrumb{
+    margin-left:200px;
+  }
 </style>
 
 <script>
 import Breadcrumb from '../components/breadcrumb'
 import Menu from '../components/menu.vue';
 export default {
+  methods:{
+    logOff(){
+      document.cookie = '';
+      window.localStorage.clear();
+      window.location.href = '/';
+    }
+  },
   components:{Menu,Breadcrumb},
 }
 </script>

@@ -32,16 +32,29 @@ const getData = ({
     });
 }
 const setState = ({id,state})=>{
-    const sql = 'updata data set state =? where id =?';
+    const sql = 'update data set state =? where id =?';
     return new Promise((reslove,reject)=>{
         cont.query(sql,[state,id],(err,res)=>{
             if(err){
                 reject();
-            }
+            };
+            reslove(true)
+        })
+    })
+}
+const remove = ({
+    id
+}) => {
+    const sql = 'DELETE FROM DATA WHERE id = ?';
+    return new Promise((reslove, reject) => {
+        cont.query(sql, [id], (err, res) => {
+            if (err) {
+                reject();
+            };
             reslove(true)
         })
     })
 }
 module.exports = {
-    signIn,getData,setState
+    signIn,getData,setState,remove
 }

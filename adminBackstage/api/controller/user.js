@@ -35,8 +35,20 @@ const setState = async (req,res,next) => {
         data
     })
 }
+const remove = async (req, res, next) => {
+    const {
+        id
+    } = req.query;
+    const data = await User.remove({
+        id
+    });
+    res.json({
+        code: 1,
+        data
+    })
+}
 module.exports = {
     signIn,
     allData,
-    setState
+    setState,remove
 }

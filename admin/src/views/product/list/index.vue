@@ -7,7 +7,7 @@
     <el-table-column
       fixed
       prop="name"
-      label="姓名"
+      label="名称"
       width="120"
       >
     </el-table-column>
@@ -19,7 +19,7 @@
     </el-table-column>
     <el-table-column
       label="图片"
-      width="120"
+      width="80"
       >
       <template slot-scope="scope">
         <img :src="scope.row.picSmall"/>
@@ -48,27 +48,27 @@
     <el-table-column
       prop="betching"
       label="成分"
-      width="300">
+      width="350">
     </el-table-column>
     <el-table-column
       fixed="right"
       label="操作"
-      width="100"
+      width="180"
       class='center'
       >
       <template slot-scope="scope" >
         <el-button  type="text" size="small">查看</el-button>
         <el-button type="text" size="small">编辑</el-button>
         <el-button type="text" size="small" @click="handleClick(scope.row,scope.$index)">{{(scope.row.state == 1)?'上架':'下架'}}</el-button>
-        <el-button type="text" size="small">删除</el-button>
-      </template>
+        <el-button type="text" size="small" @click='delect(scope.row,scope.$index)'>删除</el-button>
+      </template> 
     </el-table-column>
   </el-table>
             <el-pagination
                 layout="prev, pager, next"
                 :total=length*1
                 :page-size=num
-                @click.native='changeTable($event)'
+                @current-change='changeTable($event)'
                 >
             </el-pagination>
         </div>
@@ -77,18 +77,34 @@
 <script>
   export default {
     methods: {
-      handleClick(row,index) {
-        let data = this.tableData;
-        data[index].state = data[index].state == 1?'0':'1';
-        this.tableData = [...data];
-        fetch('/api/setState?id='+row.id+'&state='+data[index].state).then(res=>{
-          res.json().then(data => {
-            console.log(data);
+      delect(row,index){
+        this.$confirm('确认操作？')
+          .then(_ => {
+            let data = this.tableData;
+            data.splice(index,1);
+            this.tableData = [...data];
+            fetch('/api/remove?id='+row.id).then(res=>{
+              res.json().then(data => {
+                //删除成功
+            })
           })
-        })
+          });
+      },
+      handleClick(row,index) {
+        this.$confirm('确认操作？')
+          .then(_ => {
+            let data = this.tableData;
+            data[index].state = data[index].state == 1?'0':'1';
+            this.tableData = [...data];
+            fetch('/api/setState?id='+row.id+'&state='+data[index].state).then(res=>{
+              res.json().then(data => {
+                //数据库更改成功
+            })
+          })
+          });
       },
       changeTable(e){
-        fetch('/api/allData?page='+(e.target.innerText-1)*this.num+'&pageSize='+this.num).then(res=>{
+        fetch('/api/allData?page='+(e-1)*this.num+'&pageSize='+this.num).then(res=>{
             res.json().then(data => {
                 this.tableData=data.data.data;
                 this.length = data.data.length;
@@ -96,12 +112,11 @@
         })
       }
     },
-
     data() {
       return {
         tableData:[],
         length:0,
-        num:3
+        num:3,
       }
     },
     mounted() {
