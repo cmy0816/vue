@@ -75,7 +75,11 @@
         </el-input>
         </el-form-item>
         <el-form-item label="商品描述">
-            <el-input type="textarea" v-model="form.desc"></el-input>
+            <quill-editor ref="myTextEditor"
+							    :content="content"
+							    :options = "editorOption"
+							    @change="onEditorChange($event)">
+						</quill-editor>
         </el-form-item>
 
         <el-form-item>
@@ -85,6 +89,7 @@
     </el-form>
 </template>
 <script>
+  import { quillEditor } from 'vue-quill-editor'
   export default {
     data() {
         const generateData2 = _ => {
@@ -124,8 +129,13 @@
         inputVisible: false,
         inputValue: '',
         input5:'',
-        select:''
+        select:'',
+        content:"",
+        editorOption:{}
       }
+    },
+    components:{
+      quillEditor
     },
     methods: {
       onSubmit() {
@@ -154,7 +164,9 @@
         }
         this.inputVisible = false;
         this.inputValue = '';
-      }
+      },onEditorChange({ editor, html, text }) {//富文本编辑器  文本改变时 设置字段值
+	        this.content = html
+	    }
     }
   }
 </script>
