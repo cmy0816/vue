@@ -11,6 +11,11 @@ Vue.use(Element, {
   size: 'small',
   zIndex: 3000
 });
+
+import ECharts from 'vue-echarts/components/ECharts.vue'　　
+import 'echarts/lib/chart/Sunburst'
+import 'echarts/lib/component/tooltip'　　
+Vue.component('chart', ECharts)
 import 'element-ui/lib/theme-chalk/index.css';
 import 'quill/dist/quill.core.css'
 import 'quill/dist/quill.snow.css'

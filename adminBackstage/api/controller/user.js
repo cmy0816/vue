@@ -47,8 +47,16 @@ const remove = async (req, res, next) => {
         data
     })
 }
+const loaddown = (req, res, next) => {
+    if (req.file) {
+        res.json({
+            code: 1,
+            url: 'http://' + req.headers.host.split(':')[0] + ':3000/upload/' + req.file.filename
+        })
+    }
+}
 module.exports = {
     signIn,
     allData,
-    setState,remove
+    setState,remove,loaddown
 }

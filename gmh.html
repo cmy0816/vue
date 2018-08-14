@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <script>
+            // 要求实现一个 sum 函数，其调用方式及返回果如下例： sum(1, 2)(3).valueOf(); // 6 sum(4)(3, 2, 1)(5, 6).valueOf(); // 21
+            // function sum(){
+            //     let all=0;
+            //     let num=[...arguments];
+            //     function add(){
+            //         let num2 = [...arguments];
+            //         for(let i=0;i< num2.length;i++){
+            //             if(typeof num2[i]=='object'){
+            //                 for (let j = 0; j < num2[i].length; j++) {
+            //                     all += num2[i][j] * 1
+            //                 }
+            //             }else{
+            //                 all += num2[i] * 1
+            //             }
+            //         }
+            //         return add
+            //     }
+            //     add.valueOf=function(){
+            //         return all;
+            //     }
+            //     add(num)
+            //     return add
+            // }
+
+            // console.log(sum(1,2)(3,4)(5).valueOf())
+
+            React基于单项数据流，对于组件间的通信支持不够好。业界解决组件间的通信的方案正为此而生。现需要模拟一个全局的EventStore，使得可以满足以下条件，以支持组件间的通信。要求，事件绑定（同一个key可以绑定多个事件）
+
+            var obj={ 
+
+                store:{},
+
+                on:function(context,name,cb){
+                    
+                },
+
+                emit:function(){
+
+                },
+
+                delete:function(){
+
+                }
+
+            }
+
+    </script>
+</body>
+</html>

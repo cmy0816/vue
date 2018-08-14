@@ -6,7 +6,7 @@
 
         <el-form-item label="商品图片">
             <el-upload
-                action="http://localhost:3000/api/loaddown"
+                action="http://localhost:8080/api/loaddown"
                 list-type="picture-card"
                 :on-preview="handlePictureCardPreview"
                 :on-remove="handleRemove"
@@ -139,7 +139,9 @@
     },
     methods: {
       onSubmit() {
-        console.log('submit!');
+        let i=0;
+        this.form.name?i++:alert('请输入商品名称');
+        console.log(this.dialogImageUrl);
       },
       handleRemove(file, fileList) {
         console.log(file, fileList);

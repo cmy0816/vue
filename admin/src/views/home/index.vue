@@ -1,11 +1,486 @@
 <template>
-    <div>我是首页</div>
+    　　<div id="left-bottom">
+　　　　<chart :options="option" style='width:80%;height:800px;'></chart>
+　　</div>
 </template>
-
 <script>
+import echarts from "echarts";
+import G2 from "@antv/g2";
+var colors = ["#FFAE57", "#FF7853", "#EA5151", "#CC3F57", "#9A2555"];
+var bgColor = "#2E2733";
 
+var itemStyle = {
+  star5: {
+    color: colors[0]
+  },
+  star4: {
+    color: colors[1]
+  },
+  star3: {
+    color: colors[2]
+  },
+  star2: {
+    color: colors[3]
+  }
+};
+
+var data = [
+  {
+    name: "虚构",
+    itemStyle: {
+      normal: {
+        color: colors[1]
+      }
+    },
+    children: [
+      {
+        name: "小说",
+        children: [
+          {
+            name: "5☆",
+            children: [
+              {
+                name: "风雨哈佛路"
+              },
+              {
+                name: "解忧杂货铺"
+              },
+              {
+                name: "红与黑"
+              },
+              {
+                name: "复活"
+              }
+            ]
+          },
+          {
+            name: "4☆",
+            children: [
+              {
+                name: "偷影子的人"
+              },
+              {
+                name: "追风者的人"
+              },
+              {
+                name: "摆渡人"
+              }
+            ]
+          },
+          {
+            name: "3☆",
+            children: [
+              {
+                name: "黄玫瑰"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "其他",
+        children: [
+          {
+            name: "5☆",
+            children: [
+              {
+                name: "一个陌生女人的来信"
+              }
+            ]
+          },
+          {
+            name: "4☆",
+            children: [
+              {
+                name: "茶花女"
+              },
+              {
+                name: "安娜卡列尼娜"
+              }
+            ]
+          },
+          {
+            name: "3☆",
+            children: [
+              {
+                name: "向着光亮那方"
+              },
+              {
+                name
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: "非虚构",
+    itemStyle: {
+      color: colors[2]
+    },
+    children: [
+      {
+        name: "设计",
+        children: [
+          {
+            name: "5☆",
+            children: [
+              {
+                name: "无界面交互"
+              }
+            ]
+          },
+          {
+            name: "4☆",
+            children: [
+              {
+                name: "数字绘图的光照与渲染技术"
+              },
+              {
+                name: "日本建筑解剖书"
+              }
+            ]
+          },
+          {
+            name: "3☆",
+            children: [
+              {
+                name: "奇幻世界艺术\n&RPG地图绘制讲座"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "社科",
+        children: [
+          {
+            name: "5☆",
+            children: [
+              {
+                name: "痛点"
+              }
+            ]
+          },
+          {
+            name: "4☆",
+            children: [
+              {
+                name: "卓有成效的管理者"
+              },
+              {
+                name: "进化"
+              },
+              {
+                name: "后物欲时代的来临"
+              }
+            ]
+          },
+          {
+            name: "3☆",
+            children: [
+              {
+                name: "疯癫与文明"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "心理",
+        children: [
+          {
+            name: "5☆",
+            children: [
+              {
+                name: "我们时代的神经症人格"
+              }
+            ]
+          },
+          {
+            name: "4☆",
+            children: [
+              {
+                name: "皮格马利翁效应"
+              },
+              {
+                name: "受伤的人"
+              }
+            ]
+          },
+          {
+            name: "3☆"
+          },
+          {
+            name: "2☆",
+            children: [
+              {
+                name: "迷恋"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "居家",
+        children: [
+          {
+            name: "4☆",
+            children: [
+              {
+                name: "把房子住成家"
+              },
+              {
+                name: "只过必要生活"
+              },
+              {
+                name: "北欧简约风格"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "绘本",
+        children: [
+          {
+            name: "5☆",
+            children: [
+              {
+                name: "设计诗"
+              }
+            ]
+          },
+          {
+            name: "4☆",
+            children: [
+              {
+                name: "假如生活糊弄了你"
+              },
+              {
+                name: "博物学家的神秘动物图鉴"
+              }
+            ]
+          },
+          {
+            name: "3☆",
+            children: [
+              {
+                name: "方向"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "哲学",
+        children: [
+          {
+            name: "4☆",
+            children: [
+              {
+                name: "人生的智慧"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "技术",
+        children: [
+          {
+            name: "5☆",
+            children: [
+              {
+                name: "代码整洁之道"
+              }
+            ]
+          },
+          {
+            name: "4☆",
+            children: [
+              {
+                name: "Three.js 开发指南"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
+
+for (var j = 0; j < data.length; ++j) {
+  var level1 = data[j].children;
+  for (var i = 0; i < level1.length; ++i) {
+    var block = level1[i].children;
+    var bookScore = [];
+    var bookScoreId;
+    for (var star = 0; star < block.length; ++star) {
+      var style = (function(name) {
+        switch (name) {
+          case "5☆":
+            bookScoreId = 0;
+            return itemStyle.star5;
+          case "4☆":
+            bookScoreId = 1;
+            return itemStyle.star4;
+          case "3☆":
+            bookScoreId = 2;
+            return itemStyle.star3;
+          case "2☆":
+            bookScoreId = 3;
+            return itemStyle.star2;
+        }
+      })(block[star].name);
+
+      block[star].label = {
+        color: style.color,
+        downplay: {
+          opacity: 0.5
+        }
+      };
+
+      if (block[star].children) {
+        style = {
+          opacity: 1,
+          color: style.color
+        };
+        block[star].children.forEach(function(book) {
+          book.value = 1;
+          book.itemStyle = style;
+
+          book.label = {
+            color: style.color
+          };
+
+          var value = 1;
+          if (bookScoreId === 0 || bookScoreId === 3) {
+            value = 5;
+          }
+
+          if (bookScore[bookScoreId]) {
+            bookScore[bookScoreId].value += value;
+          } else {
+            bookScore[bookScoreId] = {
+              color: colors[bookScoreId],
+              value: value
+            };
+          }
+        });
+      }
+    }
+
+    level1[i].itemStyle = {
+      color: data[j].itemStyle.color
+    };
+  }
+}
+
+export default {
+  data() {
+    return {
+      option: {
+        backgroundColor: bgColor,
+        color: colors,
+        series: [
+          {
+            type: "sunburst",
+            center: ["50%", "48%"],
+            data: data,
+            sort: function(a, b) {
+              if (a.depth === 1) {
+                return b.getValue() - a.getValue();
+              } else {
+                return a.dataIndex - b.dataIndex;
+              }
+            },
+            label: {
+              rotate: "radial",
+              color: bgColor
+            },
+            itemStyle: {
+              borderColor: bgColor,
+              borderWidth: 2
+            },
+            levels: [
+              {},
+              {
+                r0: 0,
+                r: 40,
+                label: {
+                  rotate: 0
+                }
+              },
+              {
+                r0: 40,
+                r: 105
+              },
+              {
+                r0: 115,
+                r: 140,
+                itemStyle: {
+                  shadowBlur: 2,
+                  shadowColor: colors[2],
+                  color: "transparent"
+                },
+                label: {
+                  rotate: "tangential",
+                  fontSize: 10,
+                  color: colors[0]
+                }
+              },
+              {
+                r0: 140,
+                r: 145,
+                itemStyle: {
+                  shadowBlur: 80,
+                  shadowColor: colors[0]
+                },
+                label: {
+                  position: "outside",
+                  textShadowBlur: 5,
+                  textShadowColor: "#333"
+                },
+                downplay: {
+                  label: {
+                    opacity: 0.5
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      data: [
+        { genre: "Sports", sold: 275 },
+        { genre: "Strategy", sold: 115 },
+        { genre: "Action", sold: 120 },
+        { genre: "Shooter", sold: 350 },
+        { genre: "Other", sold: 150 }
+      ]
+    };
+  },
+  mounted() {
+    const chart = new G2.Chart({
+      container: "left-bottom", // 指定图表容器 ID
+      width: 600, // 指定图表宽度
+      height: 300, // 指定图表高度
+      forceFit: true
+    });
+    // Step 2: 载入数据源
+    chart.source(this.data);
+    // Step 3：创建图形语法，绘制柱状图，由 genre 和 sold 两个属性决定图形位置，genre 映射至 x 轴，sold 映射至 y 轴
+    chart
+      .interval()
+      .position("genre*sold")
+      .color("genre");
+    // Step 4: 渲染图表
+    chart.render();
+  }
+};
 </script>
 
 <style>
-
 </style>
