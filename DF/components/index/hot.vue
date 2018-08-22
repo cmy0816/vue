@@ -7,6 +7,7 @@
 </template>
 <script>
 export default{
+    name:'hot',
     data(){
         return {
             title:'热门赛事'
@@ -21,7 +22,4 @@ export default{
 }
 </script>
 <style>
-.hot{
-    
-}
 </style>

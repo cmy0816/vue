@@ -2,10 +2,12 @@
 <nav>
     <img :src="imgsrc">
     <ul class='nav'>
-        <nuxt-link v-for='(item,index) in nav' :key='index' :to='item.path' tag='li' active-class='active'>{{item.name}}</nuxt-link>
+        <nuxt-link v-for='(item,index) in nav' :key='index' :to='item.path' tag='li' active-class='active' exact>{{item.name}}</nuxt-link>
     </ul>
     <div class="icon">
         <span>EN</span>
+        <nuxt-link class='login' tag='button' to='/login'>登录</nuxt-link>
+        <nuxt-link class='register' tag='button' to='/register'>注册</nuxt-link>
     </div>
 </nav>
 </template>
@@ -41,7 +43,7 @@ export default {
 </script>
 <style>
 nav{
-    padding:20px 50px;
+    padding:20px 100px;
     height:100px;
     position: fixed;
     top:0;
@@ -68,8 +70,25 @@ nav ul{
     border-bottom-color:rgba(20,100,100,.6);
 }
 .icon{
-    float:left;
-    height:40px;
-    width:40px;
+    float:right;
+}
+.icon>span{
+    padding:5px 20px;
+}
+.icon>button{
+    margin-left:5px;
+    border-radius: 5px;
+    padding:5px 20px;
+    border:0;
+    outline: none;
+    cursor: pointer;
+}
+.login{
+    background:#59b2c3;
+    color:#fff;
+}
+.register{
+    background:#fff;
+    color:#59b2c3;
 }
 </style>

@@ -11,22 +11,19 @@ import NavLink from '~/components/index/nav.vue';
 import IndexBanner from '~/components/index/banner.vue';
 import IndexHot from '~/components/index/hot.vue'
 export default {
+  name:'index',
   data(){
     return {
         
     }
   },
   components: {
-    NavLink,IndexBanner
+    NavLink,IndexBanner,IndexHot
   }
 }
 </script>
 
 <style>
-.wrap{
-  width:80%;
-  height:auto;
-  margin: 0 auto;
-}
+
 </style>
 
