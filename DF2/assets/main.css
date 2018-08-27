@@ -1,0 +1,13 @@
+.page-enter-active,
+.page-leave-active {
+  transition: all .5s;
+
+}
+.page-enter{
+ transform: translate(-100%, 0);
+ transition: all .5s;
+}
+.page-leave-active {
+  transform: translate(100%,0);
+  transition: all .5s;
+}
